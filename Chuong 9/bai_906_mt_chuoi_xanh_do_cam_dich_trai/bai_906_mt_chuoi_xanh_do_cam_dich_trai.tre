@@ -1,0 +1,54 @@
+ÀÄbai_906_mt_chuoi_xanh_do_cam_dich_trai
+   ÀÄMAIN  0/310  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/112  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/42  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/42  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄlay_so_luong_ky_tu_chuoi  0/40  Ram=1
+      ³  ÀÄ@const1215  0/48  Ram=0
+      ÃÄlay_ma_ky_tu_dich  0/220  Ram=9
+      ³  ÃÄ@const1215  0/48  Ram=0
+      ³  ÃÄ@MUL1616  0/36  Ram=5
+      ³  ÃÄ@const1218  0/782  Ram=0
+      ³  ÀÄhieu_chinh_4bit_cao  0/52  Ram=3
+      ÃÄquet_4kytu_mau_xanh  0/150  Ram=5
+      ³  ÃÄlay_ma_quet_24_cot_xanh  0/192  Ram=1
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÃÄ@const1225  0/32  Ram=0
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÃÄ@const1225  0/32  Ram=0
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÀÄ@const1225  0/32  Ram=0
+      ³  ÃÄxuat_matranled  0/50  Ram=8
+      ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+      ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+      ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+      ³  ³  ÀÄxuat_2byte  0/44  Ram=3
+      ³  ÀÄxuat_matranled  0/50  Ram=8
+      ³     ÀÄ*
+      ÃÄquet_4kytu_mau_do  0/152  Ram=5
+      ³  ÃÄlay_ma_quet_24_cot_do  0/192  Ram=1
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÃÄ@const1222  0/32  Ram=0
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÃÄ@const1222  0/32  Ram=0
+      ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+      ³  ³  ÀÄ@const1222  0/32  Ram=0
+      ³  ÃÄxuat_matranled  0/50  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÀÄxuat_matranled  0/50  Ram=8
+      ³     ÀÄ*
+      ÀÄquet_4kytu_mau_xanh  0/150  Ram=5
+         ÀÄ*

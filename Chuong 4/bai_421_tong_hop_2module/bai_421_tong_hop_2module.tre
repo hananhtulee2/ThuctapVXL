@@ -1,0 +1,253 @@
+ÀÄbai_421_tong_hop_2module
+   ÀÄMAIN  0/356  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/88  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄb339_32led_tong_hop_tu_dong_if  0/18  Ram=0
+      ³  ÀÄh352_32led_tong_hop  0/1060  Ram=1
+      ³     ÃÄh332_32led_std_pst_if  0/114  Ram=5
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄxuat_32led_don_2word  0/36  Ram=8
+      ³     ³  ³     ÀÄxuat_32led_don_4byte  0/36  Ram=4
+      ³     ³  ³        ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ³        ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ³        ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ³        ÀÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh332_32led_std_tsp_if  0/104  Ram=5
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh337_32led_std_ttrtnv_psttsp_if  0/86  Ram=3
+      ³     ³  ÃÄh337_32led_tnv_ttr_pst_tsp  0/94  Ram=1
+      ³     ³  ³  ÃÄxuat_32led_don_2word  0/36  Ram=8
+      ³     ³  ³  ³  ÀÄ*
+      ³     ³  ³  ÃÄxuat_32led_don_2word  0/36  Ram=8
+      ³     ³  ³  ³  ÀÄ*
+      ³     ³  ³  ÃÄxuat_32led_don_2word  0/36  Ram=8
+      ³     ³  ³  ³  ÀÄ*
+      ³     ³  ³  ÀÄxuat_32led_don_2word  0/36  Ram=8
+      ³     ³  ³     ÀÄ*
+      ³     ³  ÃÄh337_32led_tnv_ttr_pst_tsp  0/94  Ram=1
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh337_32led_std_ttrtnv_psttsp_if  0/86  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄh337_32led_std_ttrtnv_psttsp_if  0/86  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄh337_32led_std_ttrtnv_psttsp_if  0/86  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄh338_32led_sd_pst_if  0/108  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh338_32led_sd_tsp_if  0/108  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh339_32led_sd_tnvttr_psttsp_if  0/98  Ram=1
+      ³     ³  ÃÄh337_32led_tnv_ttr_pst_tsp  0/94  Ram=1
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh339_32led_sd_tnvttr_psttsp_if  0/98  Ram=1
+      ³     ³  ÀÄ*
+      ³     ÃÄh339_32led_sd_tnvttr_psttsp_if  0/98  Ram=1
+      ³     ³  ÀÄ*
+      ³     ÃÄh339_32led_sd_tnvttr_psttsp_if  0/98  Ram=1
+      ³     ³  ÀÄ*
+      ³     ÃÄh340_32led_ds_dp_md_if  0/116  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh340_32led_ds_dt_md_if  0/116  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh341_32led_ds_dvdrdpdt_md_if  0/124  Ram=2
+      ³     ³  ÃÄh337_32led_tnv_ttr_pst_tsp  0/94  Ram=1
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh341_32led_ds_dvdrdpdt_md_if  0/124  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh341_32led_ds_dvdrdpdt_md_if  0/124  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh341_32led_ds_dvdrdpdt_md_if  0/124  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÃÄh342_xu_ly_kds_dt_if  0/312  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh342_32led_kds_dt_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÃÄh343_xu_ly_kds_dp_if  0/312  Ram=1
+      ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh343_32led_kds_dp_if  0/50  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÃÄh344_xu_ly_kds_dvdrdtdp_if  0/178  Ram=1
+      ³     ³  ÃÄh337_32led_tnv_ttr_pst_tsp  0/94  Ram=1
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄh332_reset_tang_tcttd_if  0/168  Ram=0
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÃÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÀÄh344_32led_kds_dvdrdtdp_if  0/42  Ram=2
+      ³        ÀÄ*
+      ÃÄb411_dem_xung_ngoai  0/76  Ram=0
+      ³  ÃÄb411_hienthi_4led7doan  0/32  Ram=0
+      ³  ³  ÃÄmd4l7d_giaima_2so_vitri_vn  0/146  Ram=6
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÃÄ@const655  0/32  Ram=0
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÀÄ@const655  0/32  Ram=0
+      ³  ³  ÃÄmd4l7d_giaima_2so_vitri_vn  0/146  Ram=6
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄxuat_4led_7doan_4so  0/44  Ram=0
+      ³  ³     ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³     ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³     ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³     ÀÄxuat_1byte  0/38  Ram=2
+      ³  ÀÄbuzzer_on_off  0/36  Ram=3
+      ³     ÃÄxuat_buzzer_relay  0/34  Ram=2
+      ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³     ÃÄ@delay_ms1  0/38  Ram=1
+      ³     ÃÄ@delay_ms1  0/38  Ram=1
+      ³     ÀÄxuat_buzzer_relay  0/34  Ram=2
+      ³        ÀÄ*
+      ÀÄ@delay_ms1  0/38  Ram=1

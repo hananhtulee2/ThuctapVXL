@@ -1,0 +1,25 @@
+[PROJECT]
+Target=bai_401_mtp4.4_7doan.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_401_mtp4.4_7doan.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_401_mtp4.4_7doan.c]
+Type=4
+[mru-list]
+1=bai_401_mtp4.4_7doan.c
+[Opened Files]
+1=..\..\Tuan2\bai_333_32led_14yeu_cau_2btn_ct\bai_333_32led_14yeu_cau_2btn_ct.c
+2=..\..\Tuan2\testhambai333\testhambai333P2.c
+3=..\..\Tuan2\testhambai333\testhambai333.c
+4=bai_401_mtp4.4_7doan.c
+5=..\bai_402_mtp4.4_4led_dich\bai_402_mtp4.4_4led_dich.c
+6=
+7=bai_401_mtp4.4_7doan.c
+8=
+[Units]
+Count=1
+1=bai_401_mtp4.4_7doan (main)

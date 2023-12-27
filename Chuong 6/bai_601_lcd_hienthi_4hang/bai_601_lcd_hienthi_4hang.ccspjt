@@ -1,0 +1,25 @@
+[PROJECT]
+Target=bai_601_lcd_hienthi_4hang.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_601_lcd_hienthi_4hang.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_601_lcd_hienthi_4hang.c]
+Type=4
+[mru-list]
+1=bai_601_lcd_hienthi_4hang.c
+[Opened Files]
+1=..\bai_603_lcd_hang0_dich_trai_phai_3btn\bai_603_lcd_hang0_dich_trai_phai_3btn.c
+2=C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+3=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+4=C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c
+5=bai_601_lcd_hienthi_4hang.c
+6=..\..\Chuong 5\bai_520_clock_ds1307_8led7doan_full_3key\bai_520_clock_ds1307_8led7doan_full_3key.c
+7=..\bai_603_lcd_hang0_dich_trai_phai_3btn\tv_01_4_nutnhan.c
+8=
+[Units]
+Count=1
+1=bai_601_lcd_hienthi_4hang (main)

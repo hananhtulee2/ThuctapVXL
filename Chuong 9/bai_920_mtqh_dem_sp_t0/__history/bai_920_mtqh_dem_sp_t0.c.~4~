@@ -1,0 +1,31 @@
+#include<tv_kit_vdk_pic_all.c>                     
+const unsigned char chuoi_hthi[] ={"*1234!** Let make sign better ****"} ; 
+#include<tv_09_matran_led_quet_hang.c>                                      
+unsigned int8 i ;            
+unsigned int16 t0, t0_tam, g_han ; 
+void b411_dem_xung_ngoai() {  
+         t0 = get_timer0() ;                           
+         if(t0_tam != t0) {           
+         t0_tam = t0 ;          
+         //b411_hienthi_4led7doan() ;  
+         if(t0 >= g_han) {      
+            set_timer0(0) ;     
+            buzzer_on_off(300) ;              
+         } 
+                           
+ }                      
+void main() {                                                            
+   set_up_port();                                                                          
+   xoa_dl_hienthi();                                             
+   g_han = 50 ;                                                                
+   while(true){                            
+            b411_dem_xung_ngoai();                   
+            lay_ma_1_so_matran(t0,3);                                       
+            xoa_dl_48_cot();                           
+            sapxep_vitri_48byte_cot_xanh(0);
+            hien_thi_ma_tran_quet_hang(100)  ;     
+      
+                   
+                      
+   }      
+}                                                                   

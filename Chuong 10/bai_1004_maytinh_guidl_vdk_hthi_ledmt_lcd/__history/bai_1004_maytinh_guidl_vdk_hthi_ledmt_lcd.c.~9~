@@ -1,0 +1,119 @@
+#include<tv_kit_vdk_pic_all.c>   
+#include<tv_09_matran_led_quet_hang.c>
+unsigned char hang0[]={"TDL UART: PIC<=>PC"};
+unsigned int8 i , rdata=0,vitri=0;     
+int1 tt = 0 ;                                                                         
+signed int8 giay,bdn,g_han,t0,t0_tam ;
+unsigned char chuoi_hthi[]={"*I love you olala*"}  ; 
+unsigned int8 vt ;             
+unsigned int16 k,y ; 
+                          
+void nhan_dulieu() {
+   if(tt) {
+      lcd_goto_xy(3,vitri);                          
+      lcd_data(rdata);
+      if(vitri<19) vitri++ ;                           
+      else         vitri=0;
+      tt = 0 ;
+                                              
+   }                                              
+}
+
+void lcd_hienthi_soto_t0() {
+   lcd_hien_thi_so_to(giay/10,1,14);
+   lcd_hien_thi_so_to(giay%10,1,17);                                 
+}     
+void lcd_hienthi_gh() {
+   lcd_hien_thi_so_to(g_han/10%10,1,0);
+   lcd_hien_thi_so_to(g_han%10,1,3);                               
+
+}   
+void counter_t0() {  
+         t0 = get_timer0() ;                           
+         if(t0_tam != t0) {
+         putc(T0);
+         t0_tam = t0 ;          
+         lcd_hienthi_soto_t0();   
+         }
+         if(t0 >= g_han) {      
+            set_timer0(0) ;               
+            buzzer_on_off(300) ; 
+         }                   
+                           
+ }  
+void mtl_qh_dich_mau_xanh() {
+   for(vt=0;vt<k;vt++) {
+      xoa_dl_48_cot();
+      sapxep_vitri_48byte_cot_xanh(vt);
+      hien_thi_ma_tran_quet_hang(30);
+      counter_t0() ;
+      if(tt) break ; 
+           
+               
+   }
+
+}  
+#int_rda           
+void interrupt_uart() {             
+     if(kbhit()) {
+         rdata = getch() ; 
+         if(~tt){
+            tt = 1 ; y = 0 ;
+            chuoi_hthi[y]  = rdata; 
+            y=1;
+         
+         }else {           
+            chuoi_hthi[y] = rdata ;
+            if(y<19) y++ ;
+         
+         
+         }
+     }
+}   
+void gma_lmt_ht_lcd() {
+   if(tt) {
+      lay_ma_ky_tu_dich(y);
+      k = y*6+24;
+      lcd_goto_xy(3,0);
+      for(i=0;i<20;i++)
+      lcd_data(chuoi_hthi[i]);
+      tt=0;    
+   }
+
+}
+     
+void main() {        
+   set_up_port();     
+   lcd_setup();
+   lcd_goto_xy(0,0);                                        
+   for(i=0;i<20;i++)   lcd_data(hang0[i]) ;   
+                 
+   enable_interrupts(global) ; 
+   enable_interrupts(int_rda) ;  
+                                                
+   setup_timer_0(t0_ext_l_to_h|t0_div_by_1);
+   set_timer0(0);                     
+     
+   g_han = 50 ; 
+   lcd_khoi_tao_cgram_so_to();
+   lcd_goto_xy(1,7);
+   lcd_data("G-han");
+   lcd_goto_xy(2,7);
+   lcd_data("Dem-T0");   
+   lcd_hienthi_gh();   
+   lcd_hienthi_soto_t0() ; 
+   lay_so_luong_ky_tu_chuoi();
+   tt=0;
+   lay_ma_ky_tu_dich(slkt);
+   k = slkt*6+24 ;
+   while(true) {
+      mtl_qh_dich_mau_xanh();
+      mtl_qh_dich_mau_xanh();
+      gma_lmt_ht_lcd();     
+   
+   }
+}
+   
+
+
+

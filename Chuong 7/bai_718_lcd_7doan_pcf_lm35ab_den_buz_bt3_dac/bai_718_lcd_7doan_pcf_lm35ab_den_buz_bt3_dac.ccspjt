@@ -1,0 +1,16 @@
+[PROJECT]
+Target=bai_718_lcd_7doan_pcf_lm35ab_den_buz_bt3_dac.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_718_lcd_7doan_pcf_lm35ab_den_buz_bt3_dac.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_718_lcd_7doan_pcf_lm35ab_den_buz_bt3_dac.c]
+Type=4
+[mru-list]
+1=bai_718_lcd_7doan_pcf_lm35ab_den_buz_bt3_dac.c
+[Units]
+Count=1
+1=bai_718_lcd_7doan_pcf_lm35ab_den_buz_bt3_dac (main)

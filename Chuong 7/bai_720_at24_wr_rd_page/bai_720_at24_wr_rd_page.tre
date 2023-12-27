@@ -1,0 +1,63 @@
+ÀÄbai_720_at24_wr_rd_page
+   ÀÄMAIN  0/208  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/88  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄat24_reset  0/72  Ram=0
+      ÃÄat24cxx_ghi_data_page  0/154  Ram=9
+      ³  ÃÄat24_khoi_tao_ghi  0/64  Ram=4
+      ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ³  ÀÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³  ÃÄmd4l7d_giaima_3so_vitri_vn  0/312  Ram=9
+      ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ³  ÃÄ@const655  0/32  Ram=0
+      ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ³  ÃÄ@const655  0/32  Ram=0
+      ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ³  ÀÄ@const655  0/32  Ram=0
+      ³  ÃÄxuat_4led_7doan_4so  0/34  Ram=0
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄat24cxx_doc_data_page  0/152  Ram=5
+      ³  ÃÄat24_khoi_tao_doc  0/114  Ram=4
+      ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ³  ÀÄ@I2C_WRITE_1  0/108  Ram=1
+      ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+      ³  ÃÄmd4l7d_giaima_3so_vitri_vn  0/312  Ram=9
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_4led_7doan_4so  0/34  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÀÄ@I2C_READ_1  0/102  Ram=3
+      ÃÄat24cxx_doc_data_page  0/152  Ram=5
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/38  Ram=1

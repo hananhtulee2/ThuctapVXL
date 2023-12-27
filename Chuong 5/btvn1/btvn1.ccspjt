@@ -1,0 +1,23 @@
+[PROJECT]
+Target=btvn1.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=btvn1.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[btvn1.c]
+Type=4
+[mru-list]
+1=btvn1.c
+[Opened Files]
+1=..\bai_501_hienthi_8so\bai_501_hienthi_8so.c
+2=..\bai_502_8so_chop_tat\bai_502_8so_chop_tat.c
+3=..\bai_506_mtp4.4_8led_dich\bai_506_mtp4.4_8led_dich.c
+4=btvn1.c
+5=..\bai_504_chuoi_std_pst\bai_504_chuoi_std_pst.c
+6=
+[Units]
+Count=1
+1=btvn1 (main)

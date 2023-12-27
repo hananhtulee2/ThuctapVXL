@@ -1,0 +1,102 @@
+#include <tv_kit_vdk_pic_all.c>    
+unsigned int8 mp ;
+signed int8 donvi,chuc ; 
+int1 tt_cai = disable ;                                  
+signed int16 t0_tam,t0 = 0;                             
+signed int16 g_han ;                                                                                               
+int16 lt = 0xffff , lp = 0 ;  
+unsigned char hang0[] = {"DEM SAN PHAM DUNG T0"} ; 
+unsigned char hang1[] = {"GIA TRI DEM: "} ; 
+unsigned char hang2[] = {"GIOI HAN DEM: "} ; 
+void lcd_hienthi_t0() {              
+   lcd_goto_xy(1,18);               
+   lcd_data(t0/10%10+0x30) ;
+   lcd_data(t0%10+0x30) ;                        
+}                                   
+void lcd_hienthi_gh() {
+   g_han = chuc*10 + donvi ;
+   lcd_goto_xy(2,18);
+   lcd_data(g_han/10%10+0x30) ; 
+   lcd_data(g_han%10+0x30) ;         
+                                        
+}                                               
+void b411_hienthi_4led7doan() {          
+   g_han = chuc*10 + donvi ;                                     
+   md4l7d_giaima_2so_vitri_vn(g_han,1,cx_vn);                                                         
+   md4l7d_giaima_2so_vitri_vn(t0,3,cx_vn);                     
+   xuat_4led_7doan_4so();                                            
+}                                                                              
+void b408_cai_gioi_han() {                
+   mp = key_4x4_dw();
+   if((mp < 10 )&&(tt_cai == enable)){
+      chuc = donvi ; 
+      donvi = mp ;
+                                                    
+   }
+   if(mp==0x0c) {
+      donvi = 0 ;              
+      chuc = 0 ;                    
+   }                                
+   if(mp == 0x0f) {                          
+      tt_cai = enable ;          
+      xuat_32led_don_1dw(0x00ffff00);
+                                            
+   }
+   if(mp==0x0e) {
+      tt_cai = disable ; 
+      xuat_32led_don_1dw(0);      
+   }
+   b411_hienthi_4led7doan() ;  
+}                                                             
+void ktra_run() {                                         
+   if(phim_run_c2(250) == co_nhan){     
+      setup_timer_0(t0_ext_l_to_h|t0_div_1) ;
+      set_timer0(t0); 
+      xuat_32led_don_2word(lt,lp);     
+   }                         
+}                           
+void ktra_stop() {                               
+   if(phim_stop_c2(250) == co_nhan){ 
+      setup_timer_0(T0_OFF) ;      
+      xuat_32led_don_2word(lt,lp);   
+   }      
+}
+void b411_dem_xung_ngoai() {                                       
+      t0 = get_timer0() ;                                        
+      if(t0_tam != t0) {           
+         t0_tam = t0 ;            
+         if(t0 >= g_han) {             
+            set_timer0(0) ;     
+            buzzer_on_off(300) ;     
+         }                                                                       
+   }                                          
+      
+      b411_hienthi_4led7doan() ;
+      lcd_hienthi_t0() ; 
+      
+    
+}                       
+void main() {                                         
+   set_up_port();  
+   lcd_setup();                           
+   lcd_puts(0,0,hang0);               
+   lcd_puts(1,0,hang1);          
+   lcd_puts(2,0,hang2);  
+   setup_timer_0(t0_ext_l_to_h|t0_div_1) ;
+   set_timer0(0); 
+   t0_tam = 1 ;                                               
+   g_han = 50 ;     
+   lcd_hienthi_gh() ;  
+   while(TRUE) {
+      ktra_run() ; 
+      ktra_stop() ; 
+      b408_cai_gioi_han() ;  
+      lcd_hienthi_gh() ;         
+      b411_dem_xung_ngoai();
+                               
+ 
+   }
+
+
+}
+

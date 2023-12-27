@@ -1,0 +1,4 @@
+>>> Warning 202 "bai_414_dem_xung_t0_stop_run_ud_32led_gh.c" Line 4(6,8): Variable never used:   ud
+      Memory usage:   ROM=4%      RAM=3% - 4%
+      0 Errors,  1 Warnings.
+Build Successful.

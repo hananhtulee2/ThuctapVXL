@@ -1,0 +1,50 @@
+#include <tv_kit_vdk_pic_all.c>    
+signed int8 t0_tam,t0;                 
+signed int8 g_han ;
+signed int16 min = 0 ,max = 60 ; 
+void giai_ma_8_led_quet() {           
+   md8l7d_gma_2so_vitri_vn(t0,3,kx_vn);    
+   md8l7d_gma_2so_vitri_vn(min,0,kx_vn); 
+   md8l7d_gma_2so_vitri_vn(max,6,kx_vn); 
+   hien_thi_8led_7doan_quet(); 
+}                         
+void b406_up_dw_g_han(){                 
+   if(phim_up_c2(10) == co_nhan ) {                    
+      if(min < 20 ) min++ ; 
+      else  min = 0 ;       
+      giai_ma_8_led_quet() ; 
+      
+   }                              
+    if(phim_dw_c2(10) == co_nhan ){    
+         if(max > 40 ) max-- ; 
+         else  max = 60 ;  
+         giai_ma_8_led_quet();
+        
+                    
+   } 
+}                                                                                                    
+void b411_dem_xung_ngoai() {                
+   t0 = get_timer0() ;                                        
+   if(t0_tam != t0) {                         
+      t0_tam = t0 ;           
+      if(t0 >= g_han) { 
+         set_timer0(0) ;          
+         buzzer_on_off(300) ;            
+      }                           
+      giai_ma_8_led_quet();                                   
+   }
+}
+                                                                              
+void main() {                                           
+   set_up_port() ; 
+   setup_timer_0(t0_ext_l_to_h|t0_div_1);
+   set_timer0(min) ;                               
+   t0_tam = 1 ; 
+   g_han = 50 ;                              
+   while(TRUE) {        
+      b406_up_dw_g_han();
+      b411_dem_xung_ngoai();
+      hien_thi_8led_7doan_quet(); 
+   }                                             
+                                                      
+}

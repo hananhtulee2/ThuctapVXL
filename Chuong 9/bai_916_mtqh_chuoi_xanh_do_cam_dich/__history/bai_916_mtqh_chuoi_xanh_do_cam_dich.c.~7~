@@ -1,0 +1,39 @@
+#include<tv_kit_vdk_pic_all.c>                     
+const unsigned char chuoi_hthi[] ={"*1234!** Let make sign better ****"} ; 
+#include<tv_09_matran_led_quet_hang.c>                                      
+unsigned int8 vt ;                              
+
+void matran_qh_dich_mau_xanh(usi8 i){                                      
+   xoa_dl_48_cot();      
+   sapxep_vitri_48byte_cot_xanh(i);                                   
+   hien_thi_ma_tran_quet_hang(50);                                                   
+}  
+                        
+void matran_qh_dich_mau_do(usi8 j){                            
+   xoa_dl_48_cot();      
+   sapxep_vitri_48byte_cot_do(j);                          
+   hien_thi_ma_tran_quet_hang(50);                    
+}                                        
+void matran_qh_dich_mau_xanh_do(usi8 k){                            
+   xoa_dl_48_cot();                     
+   sapxep_vitri_xanh_do_xanh_do(k);                          
+   hien_thi_ma_tran_quet_hang(50);                    
+}
+void main() {                                                            
+   set_up_port();                                                                          
+   lay_so_luong_ky_tu_chuoi();       
+   lay_ma_ky_tu(slkt);                                                                
+   while(true){  
+         for(vt=0;vt<(slkt-4)*6;vt++)     {
+         matran_qh_dich_mau_xanh_do(vt);        
+         } 
+         for(vt=0;vt<(slkt-4)*6;vt++)     {
+         matran_qh_dich_mau_xanh(vt);  
+         }   
+         for(vt=0;vt<(slkt-4)*6;vt++)     {
+         matran_qh_dich_mau_do(vt);  
+         }  
+                   
+                      
+   }      
+}                                                                   

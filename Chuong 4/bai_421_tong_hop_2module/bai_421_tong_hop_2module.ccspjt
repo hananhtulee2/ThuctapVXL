@@ -1,0 +1,24 @@
+[PROJECT]
+Target=bai_421_tong_hop_2module.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_421_tong_hop_2module.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_421_tong_hop_2module.c]
+Type=4
+[mru-list]
+1=bai_421_tong_hop_2module.c
+[Opened Files]
+1=..\bai_414_dem_xung_t0_stop_run_ud_32led_gh.c\bai_414_dem_xung_t0_stop_run_ud_32led_gh.c
+2=..\bai_406_cai_gh_0_99_2bt_up_dw\bai_406_cai_gh_0_99_2bt_up_dw.c
+3=C:\Program Files (x86)\PICC\Drivers\chuong3_32led_if_no_delay.c
+4=bai_421_tong_hop_2module.c
+5=bai_411_dem_xung_t0_tv.c
+6=..\bai_423_mtp4.4_on_off_16led\bai_423_mtp4.4_on_off_16led.c
+7=
+[Units]
+Count=1
+1=bai_421_tong_hop_2module (main)

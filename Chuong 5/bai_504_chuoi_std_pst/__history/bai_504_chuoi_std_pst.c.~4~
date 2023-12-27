@@ -1,0 +1,24 @@
+#include <tv_kit_vdk_pic_all.c> 
+unsigned int16 i,j,n,v ;                 
+unsigned int8 chuoidich[30] ={0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xc6,0x88,0x8e,0x86,0xbf,0xc6,0xc0,0xc6,0x88,0xbf,0xc6,0xc0,0xc7,0x88,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff}  ;
+                                              
+void copy_8byte_hthi(usi8 k) {            
+     for(i = k, n = 7 ; i < k+8 ; i++ , n-- ) {
+        dl_8l7dq[n] = chuoidich[i] ;                  
+     }                                
+}
+void main() {                                  
+   set_up_port() ;                     
+                          
+   while(TRUE) {            
+        for ( j = 0 ; j<=22 ; j++ ) {
+            copy_8byte_hthi(j) ; 
+            for (v = 0 ;v<=10; v++ ) {
+               hien_thi_8led_7doan_quet()   ;  
+            
+            }          
+        }
+      
+   }                                             
+                                                      
+}

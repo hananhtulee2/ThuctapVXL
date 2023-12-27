@@ -1,0 +1,44 @@
+#include <tv_kit_vdk_pic_all.c>    
+signed int8 t1,t0;  
+signed int8 t1_tam,t0_tam , g_han1 = 30  ,g_han2 = 300;  
+                                                      
+void giai_ma_8_led_quet() {                          
+   md8l7d_gma_2so_vitri_vn(t0,0,kx_vn);      
+   md8l7d_gma_2so_vitri_vn(t1,3,kx_vn);                    
+   hien_thi_8led_7doan_quet();                          
+}                                                                  
+                                                                                                        
+void b411_dem_xung_ngoai() {                                
+      t0 = get_timer0() ;        
+      t1 = get_timer1() ; 
+      if(t0_tam != t0) {                         
+         t0_tam = t0 ;                    
+         if(t0 >= g_han1) {     
+            set_timer0(0) ;          
+           // buzzer_on_off(300) ;                   
+         }                         
+      if(t1_tam != t1) {                         
+         t1_tam = t1 ;                    
+         if(t1 >= g_han2) {     
+            set_timer1(0) ;          
+           // buzzer_on_off(300) ;                   
+         }
+         giai_ma_8_led_quet();                                   
+      }
+   }   }                              
+                                                                              
+void main() {                                           
+   set_up_port() ;                                                       
+   setup_timer_0(t0_ext_l_to_h|t0_div_1); 
+   set_timer0(0) ;                                
+   setup_timer_1(T1_DIV_BY_1|T1_EXTERNAL); 
+   set_timer1(0) ;                                    
+   t0_tam = 1 ;               
+   t1_tam = 1 ; 
+   //g_han = 50 ;                              
+   while(TRUE) {        
+      b411_dem_xung_ngoai();                
+      giai_ma_8_led_quet() ;    
+   }                                             
+                                                      
+}

@@ -1,0 +1,25 @@
+ #include<tv_kit_vdk_pic_all.c>              
+void ktra_bt0(){   
+   if(phim_bt0_c2(40) == co_nhan){
+      lcd_clear_display ;
+      lcd_goto_xy(0,0);                          
+      lcd_data("khoa dien-dien tu") ;                          
+    }                          
+ }                       
+void ktra_bt1(){                    
+   if(phim_bt1_c2(40) == co_nhan){  
+      lcd_clear_display ; 
+      lcd_goto_xy(1,0);                         
+      lcd_data("bm dientucong-nghiep")  ;    
+   }
+} 
+void main() {      
+   set_up_port();
+   lcd_setup() ;                                                                                                                  
+   while(true) {                        
+      lcd_command(lcd_shift_left);   
+      delay_ms(500) ; 
+   
+   }
+ 
+ }

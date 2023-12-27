@@ -1,0 +1,70 @@
+ÀÄbai_919_mtqh_dem_3so_xanh
+   ÀÄMAIN  0/392  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/112  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/42  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/42  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄxoa_dl_hienthi  0/48  Ram=4
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÃÄ@MUL1616  0/36  Ram=5
+      ³  ÀÄ@const1218  0/782  Ram=0
+      ÃÄxoa_dl_48_cot  0/34  Ram=3
+      ÃÄsapxep_vitri_48byte_cot_xanh  0/26  Ram=1
+      ³  ÃÄky_tu_xanh_so_1  0/114  Ram=2
+      ³  ÃÄky_tu_xanh_so_2  0/116  Ram=2
+      ³  ÃÄky_tu_xanh_so_3  0/116  Ram=2
+      ³  ÀÄky_tu_xanh_so_4  0/116  Ram=2
+      ÃÄhien_thi_ma_tran_quet_hang  0/122  Ram=4
+      ³  ÃÄcopy_48_cot_hienthi  0/70  Ram=4
+      ³  ÃÄxuat_1bit_cua_48_cot_hienthi  0/80  Ram=4
+      ³  ³  ÀÄxuat_1bit  0/36  Ram=1
+      ³  ÃÄ@const1222  0/24  Ram=0
+      ³  ÃÄxuat_2byte  0/44  Ram=3
+      ³  ÃÄ@delay_us1  0/34  Ram=1
+      ³  ÀÄxuat_matranled  0/52  Ram=8
+      ³     ÃÄxuat_2byte  0/44  Ram=3
+      ³     ÃÄxuat_2byte  0/44  Ram=3
+      ³     ÃÄxuat_2byte  0/44  Ram=3
+      ³     ÀÄxuat_2byte  0/44  Ram=3
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÀÄ*
+      ÃÄxoa_dl_48_cot  0/34  Ram=3
+      ÃÄsapxep_vitri_48byte_cot_xanh  0/26  Ram=1
+      ³  ÀÄ*
+      ÃÄhien_thi_ma_tran_quet_hang  0/122  Ram=4
+      ³  ÀÄ*
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÀÄ*
+      ÃÄxoa_dl_48_cot  0/34  Ram=3
+      ÃÄsapxep_vitri_48byte_cot_xanh  0/26  Ram=1
+      ³  ÀÄ*
+      ÃÄhien_thi_ma_tran_quet_hang  0/122  Ram=4
+      ³  ÀÄ*
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÀÄ*
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÀÄ*
+      ÃÄxoa_dl_48_cot  0/34  Ram=3
+      ÃÄsapxep_vitri_48byte_cot_xanh  0/26  Ram=1
+      ³  ÀÄ*
+      ÃÄhien_thi_ma_tran_quet_hang  0/122  Ram=4
+      ³  ÀÄ*
+      ÃÄlay_ma_1_so_matran  0/104  Ram=7
+      ³  ÀÄ*
+      ÃÄxoa_dl_48_cot  0/34  Ram=3
+      ÃÄsapxep_vitri_48byte_cot_xanh  0/26  Ram=1
+      ³  ÀÄ*
+      ÀÄhien_thi_ma_tran_quet_hang  0/122  Ram=4
+         ÀÄ*

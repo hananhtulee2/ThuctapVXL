@@ -1,0 +1,199 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006-007 dl_btn
+008-00B dl_4l7d
+00C-013 dl_8l7dq
+014-01C time_w
+01D-025 time_r
+026-029 g_lcd
+02A     lcd_ctrl
+02A.0   lcd_e
+02A.1   lcd_rw
+02A.2   lcd_rs
+02A.3   lcd_p
+02B-02C so_ng
+02D-02E so_tp
+02F     nd_tren
+030     nd_duoi
+031.0   tttd
+031.1   buz_ena
+031.2   ttmd
+031.3   run_stop
+032     t0_tam
+033     t0
+034-035 g_han
+036-037 min
+038-039 max
+03A-03B min_tam
+03C-03D phim_bt0_c2.dl
+03C-03D buzzer_on_off.dl
+03C-03D xuat_1word.w
+03C-03D xuat_32led_don_2word.wld1
+03C     phim_bt1_c1.ktnp
+03C-03D phim_bt2_c2.dl
+03C     md8l7d_gma_2so_vitri_vn.x
+03C     hien_thi_8led_7doan_quet.ttl
+03C-03F atan2.y
+03C     b406_up_dw_g_han.@SCRATCH1
+03C     ktra_phim.@SCRATCH1
+03C     ktra_run_stop.@SCRATCH1
+03D     md8l7d_gma_2so_vitri_vn.y
+03D-03E phim_bt1_c1.dl
+03D     hien_thi_8led_7doan_quet.@SCRATCH1
+03E     md8l7d_gma_2so_vitri_vn.xvn
+03E     xuat_8led_7doan_quet.ttq
+03E     xuat_buzzer_relay.rbdc1
+03E     xuat_1word.b1
+03E-03F xuat_32led_don_2word.wld0
+03E     phim_bt0_c2.@SCRATCH1
+03E     phim_bt2_c2.@SCRATCH1
+03E     buzzer_on_off.@SCRATCH1
+03F     xuat_1word.b0
+03F     xuat_8led_7doan_quet.mht
+03F     xuat_buzzer_relay.rbdc2
+03F     @delay_us1.P1
+03F     phim_bt1_c1.@SCRATCH1
+03F     md8l7d_gma_2so_vitri_vn.@SCRATCH1
+040-043 atan2.x
+040     xuat_32led_don_2word.b3
+040     @delay_ms1.P1
+040     xuat_8led_7doan_quet.@SCRATCH1
+040     md8l7d_gma_2so_vitri_vn.@SCRATCH2
+041     xuat_32led_don_2word.b2
+041     md8l7d_gma_2so_vitri_vn.@SCRATCH3
+042     xuat_32led_don_2word.b1
+042     @DIV88.P1
+043     @DIV88.P1
+043     xuat_32led_don_2word.b0
+044     xuat_32led_don_4byte.bld3
+044-047 atan2.z
+044     @DIV88.@SCRATCH1
+045     xuat_32led_don_4byte.bld2
+046     xuat_32led_don_4byte.bld1
+047     xuat_32led_don_4byte.bld0
+048     xuat_1byte.x
+048.0   atan2.sign
+048.7   xuat_1byte.msb
+049     atan2.quad
+049     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  ma_quet.call
+000034  ma_quet.data
+00003E  @const1091.call
+000040  @const1097.call
+000042  @const1102.call
+000044  @const1112.call
+00004E  @const1114.call
+000064  @const1174.call
+000070  xuat_1byte
+000096  xuat_1word
+0000AC  xoa_tat_6module
+000104  set_up_port
+00013E  @delay_us1
+000158  phim_bt0_c2
+00019C  @DIV88
+0001C4  md8l7d_gma_2so_vitri_vn
+000252  xuat_8led_7doan_quet
+000284  @delay_ms1
+0002AA  tat_8led_7doan_quet
+0002B6  hien_thi_8led_7doan_quet
+0002EC  giai_ma_8_led_quet
+000312  phim_bt2_c2
+000356  b406_up_dw_g_han
+0003B6  phim_bt1_c1
+0003FE  ktra_phim
+000412  xuat_32led_don_4byte
+000436  xuat_32led_don_2word
+00045A  ktra_run_stop
+000480  xuat_buzzer_relay
+00049E  buzzer_on_off
+0004C2  b411_dem_xung_ngoai
+000528  MAIN
+000528  @cinit1
+000572  @cinit2
+
+Project Directory:
+    E:\TT Vi Xu Ly\Code\Chuong 5\bai_512_dxngoai_t0_8l7dq_3btn\
+
+Project Files:
+    bai_512_dxngoai_t0_8l7dq_3btn.c                         [04-Oct-23 13:23  CRC=93E3B6EE]
+    C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c [09-Feb-22 11:37  CRC=95887F12]
+    C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c [25-Aug-22 08:59  CRC=91C401BF]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [09-Aug-13 15:40  CRC=A157EDDE]
+    C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c   [06-Jan-22 21:24  CRC=24896EA4]
+    C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c [04-Oct-21 08:38  CRC=26E88B80]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c   [15-Oct-21 08:09  CRC=01B74A28]
+    C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c  [25-Feb-22 15:46  CRC=4A84D16F]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c [15-Oct-21 08:15  CRC=1A33A3DD]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c [03-Apr-22 13:12  CRC=E68E65E0]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c    [15-Oct-21 08:17  CRC=2A209586]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c         [22-Apr-22 12:36  CRC=8CAE0FFF]
+    C:\Program Files (x86)\PICC\Drivers\tv_dht11.c          [24-Nov-21 12:49  CRC=D54B50C8]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c [15-Oct-21 08:37  CRC=97FC1465]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c      [22-Apr-22 17:30  CRC=85E65A8A]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c     [22-Apr-22 10:39  CRC=D765F2E8]
+    C:\Program Files (x86)\PICC\Drivers\touch.c             [02-Mar-10 13:04  CRC=24D0ECE7]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c [15-Oct-21 08:41  CRC=A7D8AEFA]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c [15-Oct-21 08:44  CRC=A571EA9E]
+
+Source signature=E24C211F
+
+Units:
+    bai_512_dxngoai_t0_8l7dq_3btn (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   bai_512_dxngoai_t0_8l7dq_3btn.xsym
+    Errors:      bai_512_dxngoai_t0_8l7dq_3btn.err
+    Ext Symbols: bai_512_dxngoai_t0_8l7dq_3btn.esym
+    INHX32:      bai_512_dxngoai_t0_8l7dq_3btn.hex
+    Symbols:     bai_512_dxngoai_t0_8l7dq_3btn.sym
+    List:        bai_512_dxngoai_t0_8l7dq_3btn.lst
+    Debug/COFF:  bai_512_dxngoai_t0_8l7dq_3btn.cof
+    Project:     bai_512_dxngoai_t0_8l7dq_3btn.ccspjt
+    Call Tree:   bai_512_dxngoai_t0_8l7dq_3btn.tre
+    Statistics:  bai_512_dxngoai_t0_8l7dq_3btn.STA

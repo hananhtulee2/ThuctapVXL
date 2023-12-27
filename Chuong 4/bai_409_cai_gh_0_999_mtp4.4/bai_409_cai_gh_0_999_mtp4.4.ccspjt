@@ -1,0 +1,24 @@
+[PROJECT]
+Target=bai_409_cai_gh_0_999_mtp4.4.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_409_cai_gh_0_999_mtp4.4.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_409_cai_gh_0_999_mtp4.4.c]
+Type=4
+[mru-list]
+1=bai_409_cai_gh_0_999_mtp4.4.c
+[Opened Files]
+1=bai_409_cai_gh_0_999_mtp4.4.c
+2=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+3=C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c
+4=C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+6=..\bai_408_cai_gh_0_99_mtp4.4\bai_408_cai_gh_0_99_mtp4.4.c
+7=
+[Units]
+Count=1
+1=bai_409_cai_gh_0_999_mtp4.4 (main)

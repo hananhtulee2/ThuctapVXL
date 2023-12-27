@@ -1,0 +1,223 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006-007 dl_btn
+008-00B dl_4l7d
+00C-013 dl_8l7dq
+014-01C time_w
+01D-025 time_r
+026-029 g_lcd
+02A.0   lcd_e
+02A     lcd_ctrl
+02A.1   lcd_rw
+02A.2   lcd_rs
+02A.3   lcd_p
+02B-02C so_ng
+02D-02E so_tp
+02F     nd_tren
+030     nd_duoi
+031.0   tttd
+031.1   buz_ena
+031.2   ttmd
+032-1C9 dl_hthi
+1CA-1CB slkt
+1CC-1FB dl_cot_cd
+1FC-22B dl_cot_dich
+22C-243 dl_cot_cd_do
+244-25B dl_cot_cd_xanh
+25C-273 dl_cot_dich_d
+274-28B dl_cot_dich_x
+28C-28D vtkt1
+28E     sapxep_vitri_48byte_cot_do.k1
+28E-28F xuat_1word.w
+28E     xoa_dl_48_cot.j
+28E     lay_ma_ky_tu.slkt_x
+28E-291 atan2.y
+28E     hien_thi_ma_tran_quet_hang.ck
+28E     sapxep_vitri_48byte_cot_xanh.k1
+28E     lay_so_luong_ky_tu_chuoi.@SCRATCH1
+28F     lay_ma_ky_tu.kytu
+28F     ky_tu_xanh_so_2.k
+28F     ky_tu_xanh_so_3.k
+28F     ky_tu_do_so_2.k
+28F     ky_tu_do_so_1.k
+28F     ky_tu_xanh_so_1.k
+28F     ky_tu_do_so_4.k
+28F     ky_tu_xanh_so_4.k
+28F     hien_thi_ma_tran_quet_hang.j
+28F     ky_tu_do_so_3.k
+28F     xoa_dl_48_cot.@SCRATCH1
+290     lay_ma_ky_tu.i
+290     hien_thi_ma_tran_quet_hang.i
+290     xuat_1word.b1
+290     ky_tu_xanh_so_1.@SCRATCH1
+290     ky_tu_xanh_so_2.@SCRATCH1
+290     ky_tu_xanh_so_3.@SCRATCH1
+290     ky_tu_xanh_so_4.@SCRATCH1
+290     ky_tu_do_so_1.@SCRATCH1
+290     ky_tu_do_so_2.@SCRATCH1
+290     ky_tu_do_so_3.@SCRATCH1
+290     ky_tu_do_so_4.@SCRATCH1
+290     xoa_dl_48_cot.@SCRATCH2
+291     xuat_1bit_cua_48_cot_hienthi.i
+291     copy_48_cot_hienthi.i
+291-292 xuat_matranled.mahang
+291     xuat_1word.b0
+291     lay_ma_ky_tu.n
+291     hien_thi_ma_tran_quet_hang.@SCRATCH1
+292     lay_ma_ky_tu.j
+292-295 atan2.x
+292     @delay_us1.P1
+292     xuat_1byte.x
+292.7   xuat_1byte.msb
+292     copy_48_cot_hienthi.@SCRATCH1
+292     xuat_1bit_cua_48_cot_hienthi.@SCRATCH1
+293-294 xuat_matranled.macot1
+293     xuat_1byte.sb
+293     lay_ma_ky_tu.@SCRATCH1
+293     copy_48_cot_hienthi.@SCRATCH2
+293     xuat_1bit_cua_48_cot_hienthi.@SCRATCH2
+294     lay_ma_ky_tu.@SCRATCH2
+294     copy_48_cot_hienthi.@SCRATCH3
+294     xuat_1bit_cua_48_cot_hienthi.@SCRATCH3
+295     xuat_1bit.bx
+295-296 xuat_matranled.macot2
+295-296 @MUL1616.P1
+295.0   xuat_1bit.lsb
+295     lay_ma_ky_tu.@SCRATCH3
+296-299 atan2.z
+296     lay_ma_ky_tu.@SCRATCH4
+297-298 xuat_matranled.macot3
+297-298 @MUL1616.P1
+299-29A xuat_2byte.v
+299     @MUL1616.@SCRATCH1
+29A.0   atan2.sign
+29A.7   xuat_2byte.msb
+29B     xuat_2byte.i
+29B     atan2.quad
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  chuoi_hthi.call
+000014  chuoi_hthi.data
+00001A  MT_KYTU.call
+000028  MT_KYTU.data
+000328  mq_hang.call
+000338  mq_hang.data
+000340  @const1091.call
+000342  @const1097.call
+000344  @const1102.call
+000346  @const1112.call
+000350  @const1114.call
+000366  @const1174.call
+000372  xuat_1byte
+00039C  xuat_1word
+0003B2  xoa_tat_6module
+000422  set_up_port
+00045C  lay_so_luong_ky_tu_chuoi
+000490  @MUL1616
+0004B4  lay_ma_ky_tu
+00053C  xoa_dl_48_cot
+00055E  ky_tu_xanh_so_1
+0005D0  ky_tu_xanh_so_2
+000644  ky_tu_xanh_so_3
+0006B8  ky_tu_xanh_so_4
+00072C  sapxep_vitri_48byte_cot_xanh
+000748  copy_48_cot_hienthi
+00078E  xuat_1bit
+0007B2  xuat_1bit_cua_48_cot_hienthi
+000802  xuat_2byte
+00082E  @delay_us1
+000850  xuat_matranled
+000884  hien_thi_ma_tran_quet_hang
+0008FE  ky_tu_do_so_1
+000970  ky_tu_do_so_2
+0009E4  ky_tu_do_so_3
+000A58  ky_tu_do_so_4
+000ACC  sapxep_vitri_48byte_cot_do
+000AE8  MAIN
+000AE8  @cinit1
+000B1E  @cinit2
+
+Project Directory:
+    E:\TT Vi Xu Ly\Code\Chuong 9\bai_913_mtqh_abcd_xanh_do\
+
+Project Files:
+    bai_913_mtqh_abcd_xanh_do.c                             [11-Dec-23 15:27  CRC=35B066D2]
+    C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c [09-Feb-22 11:37  CRC=95887F12]
+    C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c [25-Aug-22 08:59  CRC=91C401BF]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [09-Aug-13 15:40  CRC=A157EDDE]
+    C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c   [06-Jan-22 21:24  CRC=24896EA4]
+    C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c [04-Oct-21 08:38  CRC=26E88B80]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c   [15-Oct-21 08:09  CRC=01B74A28]
+    C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c  [25-Feb-22 15:46  CRC=4A84D16F]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c [15-Oct-21 08:15  CRC=1A33A3DD]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c [03-Apr-22 13:12  CRC=E68E65E0]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c    [15-Oct-21 08:17  CRC=2A209586]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c         [22-Apr-22 12:36  CRC=8CAE0FFF]
+    C:\Program Files (x86)\PICC\Drivers\tv_dht11.c          [24-Nov-21 12:49  CRC=D54B50C8]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c [15-Oct-21 08:37  CRC=97FC1465]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c      [22-Apr-22 17:30  CRC=85E65A8A]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c     [22-Apr-22 10:39  CRC=D765F2E8]
+    C:\Program Files (x86)\PICC\Drivers\touch.c             [02-Mar-10 13:04  CRC=24D0ECE7]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c [15-Oct-21 08:41  CRC=A7D8AEFA]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c [15-Oct-21 08:44  CRC=A571EA9E]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_quet_hang.c [01-Dec-22 15:30  CRC=D588FC11]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_font.c        [17-Feb-21 17:58  CRC=721F1EEB]
+
+Source signature=986E204C
+
+Units:
+    bai_913_mtqh_abcd_xanh_do (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   bai_913_mtqh_abcd_xanh_do.xsym
+    Errors:      bai_913_mtqh_abcd_xanh_do.err
+    Ext Symbols: bai_913_mtqh_abcd_xanh_do.esym
+    INHX32:      bai_913_mtqh_abcd_xanh_do.hex
+    Symbols:     bai_913_mtqh_abcd_xanh_do.sym
+    List:        bai_913_mtqh_abcd_xanh_do.lst
+    Debug/COFF:  bai_913_mtqh_abcd_xanh_do.cof
+    Project:     bai_913_mtqh_abcd_xanh_do.ccspjt
+    Call Tree:   bai_913_mtqh_abcd_xanh_do.tre
+    Statistics:  bai_913_mtqh_abcd_xanh_do.STA

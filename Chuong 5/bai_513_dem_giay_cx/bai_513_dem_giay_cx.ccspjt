@@ -1,0 +1,24 @@
+[PROJECT]
+Target=bai_513_dem_giay_cx.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_513_dem_giay_cx.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_513_dem_giay_cx.c]
+Type=4
+[mru-list]
+1=bai_513_dem_giay_cx.c
+[Opened Files]
+1=..\bai_512_dxngoai_t0_8l7dq_3btn\bai_512_dxngoai_t0_8l7dq_3btn.c
+2=..\bai_511_dxngoai_t0_led7doan\bai_511_dxngoai_t0_led7doan.c
+3=..\..\Chuong 4\bai_415_dem_xung_t0_stop_run_ud_32led_gh_mtp4.4.c\bai_415_dem_xung_t0_stop_run_ud_32led_gh_mtp4.4.c
+4=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+6=bai_513_dem_giay_cx.c
+7=
+[Units]
+Count=1
+1=bai_513_dem_giay_cx (main)

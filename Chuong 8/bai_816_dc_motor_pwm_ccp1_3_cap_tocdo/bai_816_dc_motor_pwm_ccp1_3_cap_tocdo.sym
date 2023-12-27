@@ -1,0 +1,210 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006-007 dl_btn
+008-00B dl_4l7d
+00C-013 dl_8l7dq
+014-01C time_w
+01D-025 time_r
+026-029 g_lcd
+02A     lcd_ctrl
+02A.0   lcd_e
+02A.1   lcd_rw
+02A.2   lcd_rs
+02A.3   lcd_p
+02B-02C so_ng
+02D-02E so_tp
+02F     nd_tren
+030     nd_duoi
+031.0   tttd
+031.1   buz_ena
+031.2   ttmd
+031.3   dcmotor_tn
+031.4   dcmotor_onoff
+031.5   tt_onoff
+032-033 pwm_duty
+034-035 pwm_tdo
+036-037 lt
+038-039 lp
+03A     i
+03B-03C @MUL1616.P1
+03B     xuat_buzzer_relay.rbdc1
+03B-03E atan2.y
+03B-03C xuat_32led_don_2word.wld1
+03B-03C xuat_1word.w
+03B-03C md8l7d_gma_4so_vitri_vn.x
+03B-03C phim_bt0_c2.dl
+03B-03C phim_bt2_c2.dl
+03B     hien_thi_8led_7doan_quet.ttl
+03B     md8l7d_gma_2so_vitri_vn.x
+03C     xuat_buzzer_relay.rbdc2
+03C     @delay_ms1.P1
+03C     md8l7d_gma_2so_vitri_vn.y
+03C     hien_thi_8led_7doan_quet.@SCRATCH1
+03D     md8l7d_gma_2so_vitri_vn.xvn
+03D     xuat_8led_7doan_quet.ttq
+03D-03E xuat_32led_don_2word.wld0
+03D-03E @MUL1616.P1
+03D     md8l7d_gma_4so_vitri_vn.y
+03D     xuat_1word.b1
+03D     phim_bt0_c2.@SCRATCH1
+03D     phim_bt2_c2.@SCRATCH1
+03E     xuat_1word.b0
+03E     @delay_us1.P1
+03E     xuat_8led_7doan_quet.mht
+03E     md8l7d_gma_4so_vitri_vn.xvn
+03E     md8l7d_gma_2so_vitri_vn.@SCRATCH1
+03F-042 atan2.x
+03F     xuat_32led_don_2word.b3
+03F     xuat_8led_7doan_quet.@SCRATCH1
+03F     md8l7d_gma_2so_vitri_vn.@SCRATCH2
+03F     md8l7d_gma_4so_vitri_vn.@SCRATCH1
+03F     @MUL1616.@SCRATCH1
+040     xuat_32led_don_2word.b2
+040     md8l7d_gma_2so_vitri_vn.@SCRATCH3
+040     md8l7d_gma_4so_vitri_vn.@SCRATCH2
+041     xuat_32led_don_2word.b1
+041     @DIV88.P1
+041     md8l7d_gma_4so_vitri_vn.@SCRATCH3
+042     xuat_32led_don_2word.b0
+042     @DIV88.P1
+042     md8l7d_gma_4so_vitri_vn.@SCRATCH4
+043     xuat_32led_don_4byte.bld3
+043-046 atan2.z
+043-044 @DIV1616.P1
+043     @DIV88.@SCRATCH1
+043     md8l7d_gma_4so_vitri_vn.@SCRATCH5
+044     xuat_32led_don_4byte.bld2
+045-046 @DIV1616.P1
+045     xuat_32led_don_4byte.bld1
+046     xuat_32led_don_4byte.bld0
+047     xuat_1byte.x
+047.0   atan2.sign
+047.7   xuat_1byte.msb
+047     @DIV1616.@SCRATCH1
+048     atan2.quad
+048     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  ma_quet.call
+000034  ma_quet.data
+00003E  @const1091.call
+000040  @const1097.call
+000042  @const1102.call
+000044  @const1112.call
+00004E  @const1114.call
+000064  @const1174.call
+000070  xuat_1byte
+000096  xuat_1word
+0000AC  xoa_tat_6module
+000104  set_up_port
+00013E  xuat_buzzer_relay
+00015E  dc_motor_enable
+000166  dc_motor_ktao_ccp2_nghich
+00017A  @DIV1616
+0001BC  md8l7d_gma_4so_vitri_vn
+000374  @DIV88
+00039C  md8l7d_gma_2so_vitri_vn
+00042C  giai_ma_7doan_quet
+000450  @delay_us1
+00046A  phim_bt0_c2
+0004AE  @MUL1616
+0004CC  xuat_32led_don_4byte
+0004F0  xuat_32led_don_2word
+000514  phim_up
+000590  phim_bt2_c2
+0005D4  phim_dw
+000658  phim_stop
+0006C6  xuat_8led_7doan_quet
+0006F8  @delay_ms1
+000720  tat_8led_7doan_quet
+00072C  hien_thi_8led_7doan_quet
+000762  MAIN
+000762  @cinit1
+0007A2  @cinit2
+
+Project Directory:
+    E:\TT Vi Xu Ly\Code\Chuong 8\bai_816_dc_motor_pwm_ccp1_3_cap_tocdo\
+
+Project Files:
+    bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.c                 [11-Dec-23 11:47  CRC=49388311]
+    C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c [09-Feb-22 11:37  CRC=95887F12]
+    C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c [25-Aug-22 08:59  CRC=91C401BF]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [09-Aug-13 15:40  CRC=A157EDDE]
+    C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c   [06-Jan-22 21:24  CRC=24896EA4]
+    C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c [04-Oct-21 08:38  CRC=26E88B80]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c   [15-Oct-21 08:09  CRC=01B74A28]
+    C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c  [25-Feb-22 15:46  CRC=4A84D16F]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c [15-Oct-21 08:15  CRC=1A33A3DD]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c [03-Apr-22 13:12  CRC=E68E65E0]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c    [15-Oct-21 08:17  CRC=2A209586]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c         [22-Apr-22 12:36  CRC=8CAE0FFF]
+    C:\Program Files (x86)\PICC\Drivers\tv_dht11.c          [24-Nov-21 12:49  CRC=D54B50C8]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c [15-Oct-21 08:37  CRC=97FC1465]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c      [22-Apr-22 17:30  CRC=85E65A8A]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c     [22-Apr-22 10:39  CRC=D765F2E8]
+    C:\Program Files (x86)\PICC\Drivers\touch.c             [02-Mar-10 13:04  CRC=24D0ECE7]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c [15-Oct-21 08:41  CRC=A7D8AEFA]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c [15-Oct-21 08:44  CRC=A571EA9E]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_dc_motor.c    [03-May-22 16:01  CRC=B7C3FDD3]
+    bai_816_dc_motor_tv.c                                   [11-Dec-23 11:48  CRC=CF5FFE08]
+
+Source signature=48B2FC87
+
+Units:
+    bai_816_dc_motor_pwm_ccp1_3_cap_tocdo (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.xsym
+    Errors:      bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.err
+    Ext Symbols: bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.esym
+    INHX32:      bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.hex
+    Symbols:     bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.sym
+    List:        bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.lst
+    Debug/COFF:  bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.cof
+    Project:     bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.ccspjt
+    Call Tree:   bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.tre
+    Statistics:  bai_816_dc_motor_pwm_ccp1_3_cap_tocdo.STA

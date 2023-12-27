@@ -1,0 +1,26 @@
+[PROJECT]
+Target=bai_706_lcd_gp2d12_do_kcach.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_706_lcd_gp2d12_do_kcach.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_706_lcd_gp2d12_do_kcach.c]
+Type=4
+[mru-list]
+1=bai_706_lcd_gp2d12_do_kcach.c
+[Opened Files]
+1=..\bai_704_lcd_7doan_lm35a_b_den_buzz_3bt\bai_704_lcd_7doan_lm35a_b_den_buzz_3bt.c
+2=..\bai_703_lcd_7doan_lm35_a_b_den_buz_bt3\bai_701_lm35a_tv.c
+3=..\bai_703_lcd_7doan_lm35_a_b_den_buz_bt3\bai_702_lm35b_tv.c
+4=..\bai_703_lcd_7doan_lm35_a_b_den_buz_bt3\bai_701_bt3_lcd_tv.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c
+6=..\bai_704_lcd_7doan_lm35a_b_den_buzz_3bt\bai_704_bt_up_dw_lcd_tv.c
+7=bai_706_lcd_gp2d12_tv.c
+8=bai_706_lcd_gp2d12_do_kcach.c
+9=
+[Units]
+Count=1
+1=bai_706_lcd_gp2d12_do_kcach (main)

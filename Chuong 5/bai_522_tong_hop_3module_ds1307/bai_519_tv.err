@@ -1,0 +1,4 @@
+>>> Warning 202 "bai_519_tv.c" Line 2(6,14): Variable never used:   giay_tam
+*** Error 53 "bai_519_tv.c" Line 40(1,2): Expecting function name
+      1 Errors,  1 Warnings.
+Build Failed.

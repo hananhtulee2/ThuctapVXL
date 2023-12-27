@@ -1,0 +1,60 @@
+#include<tv_kit_vdk_pic_all.c>    
+usi8 giay_tam ;                                  
+unsigned int8 gt_mod ;                                                            
+void giai_ma_8led_quet() {                   
+   if(gt_mod == 0 ) {                            
+      md8l7d_gma_so_bcd_vitri_vn(giay_ds,0,kx_vn); 
+      md8l7d_gma_so_bcd_vitri_vn(phut_ds,3,kx_vn);    
+      md8l7d_gma_so_bcd_vitri_vn(gio_ds,6,cx_vn);                                                                 
+  }else if(gt_mod == 1) {                             
+      md8l7d_gma_so_bcd_vitri_vn(ngay_ds,0,kx_vn);       
+      md8l7d_gma_so_bcd_vitri_vn(thang_ds,3,kx_vn);               
+      md8l7d_gma_so_bcd_vitri_vn(nam_ds,6,cx_vn);            
+  }else if(gt_mod == 2) {                                         
+      dl_8l7dq[7] = 0x87 ; 
+      dl_8l7dq[6] = 0x8b ; 
+      dl_8l7dq[5] = 0xe3 ;       
+      dl_8l7dq[4] = 0xff ;     
+      dl_8l7dq[3] = ma7doan[thu_ds] ;
+      dl_8l7dq[2] = 0xff ;    
+      dl_8l7dq[1] = 0xff ;       
+      dl_8l7dq[0] = 0xff ; 
+      /*dl_8l7dq[7] = 0xff ;    
+      dl_8l7dq[6] = 0xff ; 
+      dl_8l7dq[5] = 0xff ;     
+      dl_8l7dq[4] = 0xff ;
+      dl_8l7dq[3] = 0xff ;   
+      dl_8l7dq[2] = 0xff ;                       
+      dl_8l7dq[1] = 0xff ; 
+      md8l7d_gma_so_bcd_vitri_vn(thu_ds,0,cx_vn);    */
+      
+  }                                                
+                     
+} 
+void ktra_mod() {                            
+   if(phim_ud_c2(40) == co_nhan){
+      gt_mod++ ;                        
+      if(gt_mod > 2) gt_mod = 0 ; 
+   }                          
+   giai_ma_8led_quet() ;  
+} 
+void main() { 
+   gt_mod = 0 ; 
+   set_up_port();        
+   ds1307_kiem_tra_ma();           
+   while(TRUE) {                 
+                                                
+      for(int8 i = 0;i<5;i++) {
+         hien_thi_8led_7doan_quet() ; 
+         ktra_mod() ;
+      }                                                             
+      ds1307_doc_time(8) ;               
+      if(giay_tam != giay_ds) {
+         giay_tam = giay_ds ; 
+         giai_ma_8led_quet() ; 
+      }  
+            
+                                               
+   }                          
+
+}

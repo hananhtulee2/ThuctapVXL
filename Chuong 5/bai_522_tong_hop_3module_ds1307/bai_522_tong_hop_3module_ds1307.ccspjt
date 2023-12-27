@@ -1,0 +1,30 @@
+[PROJECT]
+Target=bai_522_tong_hop_3module_ds1307.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_522_tong_hop_3module_ds1307.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_522_tong_hop_3module_ds1307.c]
+Type=4
+[mru-list]
+1=bai_522_tong_hop_3module_ds1307.c
+[Opened Files]
+1=..\..\Chuong 3\bai_308_32led_std_pst\bai_308_32led_std_pst.c
+2=..\..\Chuong 3\bai_312_32led_sd_tsp\bai_312_32led_sd_tsp.c
+3=..\..\Chuong 3\bai_313_32led_sd_tnv\bai_313_32led_sd_tnv.c
+4=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+6=C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c
+7=..\..\Chuong 4\bai_402_mtp4.4_4led_dich\bai_402_mtp4.4_4led_dich.c
+8=..\..\Chuong 4\bai_403_mtp4.4_4led_dich_undo4\bai_403_mtp4.4_4led_dich_undo4.c
+9=..\..\Chuong 3\bai_323_on_off_inv_cdoi_8led\bai_323_on_off_inv_cdoi_8led.c
+10=..\..\Chuong 3\bai_324_16led_up_dw_clr_1\bai_324_16led_up_dw_clr_1.c
+11=bai_522_tong_hop_3module_ds1307.c
+12=..\bai_523_tong_hop_3module_ds1307\bai_523_tong_hop_3module_ds1307.c
+13=
+[Units]
+Count=1
+1=bai_522_tong_hop_3module_ds1307 (main)

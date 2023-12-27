@@ -1,0 +1,4 @@
+>>> Warning 202 "bai_404__mtp4.4_on_off_8ledon.c" Line 2(20,21): Variable never used:   x
+      Memory usage:   ROM=2%      RAM=3% - 4%
+      0 Errors,  1 Warnings.
+Build Successful.

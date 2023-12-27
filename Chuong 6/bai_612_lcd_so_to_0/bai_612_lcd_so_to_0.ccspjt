@@ -1,0 +1,36 @@
+[PROJECT]
+Target=bai_612_lcd_so_to_0.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_612_lcd_so_to_0.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_612_lcd_so_to_0.c]
+Type=4
+[mru-list]
+1=bai_612_lcd_so_to_0.c
+[Opened Files]
+1=..\bai_614_lcd_dem_sp_soto\bai_614_lcd_dem_sp_soto.c
+2=C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+3=C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c
+4=bai_612_lcd_so_to_0.c
+5=
+6=..\..\Chuong 5\btvn2\btvn2.c
+7=..\..\Chuong 5\bai_515_dem_gio_phut_giay\bai_515_dem_gio_phut_giay.c
+8=..\..\Chuong 5\bai_519_clock_ds1307_8led7doan_full\bai_519_clock_ds1307_8led7doan_full.c
+9=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+10=C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+11=C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c
+12=C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+13=..\bai_608_lcd_4led_dem_sp_t0\bai_608_lcd_4led_dem_sp_t0.c
+14=..\bai_609_lcd_4led_dem_sp_t0_ud\bai_609_lcd_4led_dem_sp_t0_ud.c
+15=..\bai_610_lcd_4led_dem_sp_t0_matrix_key\bai_610_lcd_4led_dem_sp_t0_matrix_key.c
+16=..\..\Chuong 4\bai_408_cai_gh_0_99_mtp4.4\bai_408_cai_gh_0_99_mtp4.4.c
+17=..\bai_611_lcd_traitim\bai_611_lcd_traitim.c
+18=bai_612_lcd_so_to_0.c
+19=
+[Units]
+Count=1
+1=bai_612_lcd_so_to_0 (main)

@@ -1,0 +1,27 @@
+[PROJECT]
+Target=bai_511_dxngoai_t0_led7doan.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_511_dxngoai_t0_led7doan.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_511_dxngoai_t0_led7doan.c]
+Type=4
+[mru-list]
+1=bai_511_dxngoai_t0_led7doan.c
+[Opened Files]
+1=..\..\Chuong 4\bai_406_cai_gh_0_99_2bt_up_dw\bai_406_cai_gh_0_99_2bt_up_dw.c
+2=C:\Program Files (x86)\PICC\Drivers\chuong3_32led_if_no_delay.c
+3=..\..\Chuong 4\bai_421_tong_hop_2module\bai_411_dem_xung_t0_tv.c
+4=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c
+6=C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+7=bai_511_dxngoai_t0_led7doan.c
+8=..\..\Chuong 4\bai_411_dem_xung_t0\bai_411_dem_xung_t0.c
+9=..\bai_504_chuoi_std_pst\bai_504_chuoi_std_pst.c
+10=
+[Units]
+Count=1
+1=bai_511_dxngoai_t0_led7doan (main)

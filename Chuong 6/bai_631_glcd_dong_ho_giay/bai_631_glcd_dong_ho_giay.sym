@@ -1,0 +1,335 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006-007 dl_btn
+008-00B dl_4l7d
+00C-013 dl_8l7dq
+014-01C time_w
+01D-025 time_r
+026-029 g_lcd
+02A     lcd_ctrl
+02A.0   lcd_e
+02A.1   lcd_rw
+02A.2   lcd_rs
+02A.3   lcd_p
+02B-02C so_ng
+02D-02E so_tp
+02F     nd_tren
+030     nd_duoi
+031.0   tttd
+031.1   buz_ena
+031.2   ttmd
+032.0   glcd_psb
+032     glcd_ctr
+032.1   glcd_nc
+032.2   glcd_e
+032.3   glcd_rw
+032.4   glcd_rs
+032.5   glcd_p
+033     doc
+034     ngang
+035-435 gdram_vdk
+436-437 xs_ve
+438-439 ys_ve
+43A-43B tgs45
+43C-43F xs_tinh
+440-443 ys_tinh
+444-447 goc_s
+448     giay_tam
+449     giay_bin
+44A-44B xuat_1word.w
+44A     ds1307_cap_nhat_time.sel
+44A     ds1307_doc_time.j
+44A     glcd_ve_kim_giay.bk
+44A-44D atan2.y
+44A-454 glcd_ve_cac_vong_tron_so.glcd_text1
+44A     gdram_vdk_to_gdram_glcd_all.@SCRATCH1
+44A     glcd_dong_ho_so.@SCRATCH1
+44A     MAIN.@SCRATCH1
+44B-44C glcd_ve_kim_giay.tg
+44B     ds1307_doc_time.i
+44B     ds1307_cap_nhat_time.i
+44B     gdram_vdk_to_gdram_glcd_all.@SCRATCH2
+44C     xuat_1word.b1
+44C     ds1307_cap_nhat_time.@SCRATCH1
+44C     ds1307_doc_time.@SCRATCH1
+44C     gdram_vdk_to_gdram_glcd_all.@SCRATCH3
+44D     glcd_ve_kim_giay.tt
+44D     xuat_1word.b0
+44D     glcd_data.db
+44D     @I2C_WRITE_1.P1
+44D     ds1307_doc_time.@SCRATCH2
+44E-451 atan2.x
+44E     tinh_vi_tri_kim_giay.bk
+44E     @I2C_READ_1.P1
+44F-450 tinh_vi_tri_kim_giay.tg
+44F     @I2C_READ_1.@SCRATCH1
+450     @I2C_READ_1.@SCRATCH2
+451-452 @SITOF.P1
+451-452 @MULS1616.P2
+451     tinh_vi_tri_kim_giay.@SCRATCH1
+452-455 atan2.z
+452     tinh_vi_tri_kim_giay.@SCRATCH2
+453-454 @MULS1616.P1
+453     tinh_vi_tri_kim_giay.@SCRATCH3
+454     tinh_vi_tri_kim_giay.@SCRATCH4
+455-458 @DIVFF.P1
+455-457 glcd_ve_cac_vong_tron_so.glcd_12
+455-458 sin.x
+455     @MULS1616.@SCRATCH1
+456.0   atan2.sign
+456     @MULS1616.@SCRATCH2
+457     atan2.quad
+458-459 glcd_ve_cac_vong_tron_so.glcd_3
+459-45C @DIVFF.P1
+459     sin.@SCRATCH1
+45A-45B glcd_ve_cac_vong_tron_so.glcd_6
+45A     sin.@SCRATCH2
+45B     sin.@SCRATCH3
+45C-45D glcd_ve_cac_vong_tron_so.glcd_9
+45C     sin.@SCRATCH4
+45D-460 cos.x
+45D     @DIVFF.@SCRATCH1
+45E     glcd_text57.x
+45E     glcd_circle.x
+45E     glcd_setup.glcd_fs_mode
+45E     glcd_mau_nen.glcd_color
+45E     @DIVFF.@SCRATCH2
+45F     glcd_circle.y
+45F     glcd_text57.y
+45F     glcd_command.db
+45F-460 glcd_mau_nen.d
+45F     @delay_ms1.P1
+45F     @DIVFF.@SCRATCH3
+460     glcd_circle.radius
+460-461 glcd_text57.textptr
+460     glcd_xuat_db.db
+460     @DIVFF.@SCRATCH4
+461-464 cos.y
+461     glcd_circle.fill
+461     xuat_glcd.glcd_ctr
+461     @DIVFF.@SCRATCH5
+461     glcd_mau_nen.@SCRATCH1
+462     xuat_glcd.glcd_dta
+462     glcd_circle.color
+462     glcd_text57.size
+462     @DIVFF.@SCRATCH6
+462     glcd_mau_nen.@SCRATCH2
+463     xuat_1byte.x
+463     glcd_circle.a
+463     glcd_text57.color
+463.7   xuat_1byte.msb
+463     glcd_mau_nen.@SCRATCH3
+464     glcd_circle.b
+464     glcd_text57.j
+464     xuat_1byte.sb
+464     glcd_mau_nen.@SCRATCH4
+465     glcd_text57.k
+465     glcd_circle.p
+465-468 cos.t
+466     glcd_text57.l
+466     glcd_circle.@SCRATCH1
+467     glcd_text57.m
+467     @MUL88.P1
+467     glcd_circle.@SCRATCH2
+468-46C glcd_text57.pixelData
+468     @MUL88.P1
+468     glcd_circle.@SCRATCH3
+469-46C cos.t2
+469     glcd_circle.@SCRATCH4
+46A     glcd_line.x1
+46B     glcd_line.y1
+46C     glcd_line.x2
+46D     glcd_line.y2
+46D     cos.quad
+46D     glcd_text57.@SCRATCH1
+46E     cos.i
+46E     glcd_line.color
+46E     glcd_text57.@SCRATCH2
+46F-470 glcd_line.dy
+46F-472 cos.frac
+46F     glcd_text57.@SCRATCH3
+470     glcd_text57.@SCRATCH4
+471-472 glcd_line.dx
+471     glcd_text57.@SCRATCH5
+473-486 cos.p
+473     glcd_line.addx
+474     glcd_line.addy
+475-476 glcd_line.p
+477-478 glcd_line.diff
+479     glcd_line.i
+47A     glcd_pixel.x
+47A     glcd_line.@SCRATCH1
+47B     glcd_pixel.y
+47C     glcd_pixel.color
+47D     glcd_pixel.b
+47E-47F @MUL1616.P1
+47E     glcd_pixel.@SCRATCH1
+47F     glcd_pixel.@SCRATCH2
+480-481 @MUL1616.P1
+482     @MUL1616.@SCRATCH1
+487-48A @SFTOI.P1
+487-48A @FLT.P2
+487     cos.@SCRATCH1
+488     cos.@SCRATCH2
+489     cos.@SCRATCH3
+48A     cos.@SCRATCH4
+48B-48C @ITOF.P1
+48B-48E @MULFF.P2
+48B-48E @ADDFF.P3
+48B-48E @FLT.P4
+48F-492 @ADDFF.P1
+48F-492 @MULFF.P2
+48F     @FLT.@SCRATCH1
+490     @FLT.@SCRATCH2
+493     @MULFF.@SCRATCH1
+493     @ADDFF.@SCRATCH1
+494     @MULFF.@SCRATCH2
+494     @ADDFF.@SCRATCH2
+495     @MULFF.@SCRATCH3
+495     @ADDFF.@SCRATCH3
+496     @ADDFF.@SCRATCH4
+497     @ADDFF.@SCRATCH5
+498     @ADDFF.@SCRATCH6
+499     @ADDFF.@SCRATCH7
+49A     @ADDFF.@SCRATCH8
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  FONT.call
+000014  FONT.data
+000114  FONT2.call
+000124  FONT2.data
+000200  maglcd.call
+000210  maglcd.data
+00021C  @const1091.call
+00021E  @const1097.call
+000220  @const1102.call
+000222  @const1112.call
+00022C  @const1114.call
+000242  @const1174.call
+00024E  xuat_1byte
+000278  xuat_1word
+00028E  xoa_tat_6module
+0002FE  set_up_port
+000338  xuat_glcd_lcd
+00035C  xuat_glcd
+000370  glcd_xuat_db
+000396  glcd_command
+0003A0  @delay_ms1
+0003C8  glcd_setup
+000420  @MUL1616
+000442  glcd_mau_nen
+0004BC  @I2C_WRITE_1
+000532  @I2C_READ_1
+00059C  ds1307_doc_time
+00065A  ds1307_cap_nhat_time
+000702  ds1307_kiem_tra_ma
+000720  glcd_pixel
+00082C  glcd_text57
+0009E4  glcd_line
+000B1A  @MUL88
+000B68  glcd_circle
+000D78  glcd_ve_cac_vong_tron_so
+000F50  @MULS1616
+000FA6  @SITOF
+000FF8  @MULFF
+0010EE  @DIVFF
+00124C  @FLT
+0012C8  @SFTOI
+001304  @ITOF
+00133A  @ADDFF
+0015B2  cos
+00193A  sin
+001988  tinh_vi_tri_kim_giay
+001BCC  glcd_ve_kim_giay
+001C58  glcd_data
+001C64  gdram_vdk_to_gdram_glcd_all
+001D52  glcd_dong_ho_so
+001DB0  @cinit1
+001DB0  MAIN
+001DE6  @cinit2
+
+Project Directory:
+    E:\TT Vi Xu Ly\Code\Chuong 6\bai_631_glcd_dong_ho_giay\
+
+Project Files:
+    bai_631_glcd_dong_ho_giay.c                             [20-Nov-23 14:32  CRC=875CCE6B]
+    C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c [09-Feb-22 11:37  CRC=95887F12]
+    C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c [25-Aug-22 08:59  CRC=91C401BF]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [09-Aug-13 15:40  CRC=A157EDDE]
+    C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c   [06-Jan-22 21:24  CRC=24896EA4]
+    C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c [04-Oct-21 08:38  CRC=26E88B80]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c   [15-Oct-21 08:09  CRC=01B74A28]
+    C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c  [25-Feb-22 15:46  CRC=4A84D16F]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c [15-Oct-21 08:15  CRC=1A33A3DD]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c [03-Apr-22 13:12  CRC=E68E65E0]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c    [15-Oct-21 08:17  CRC=2A209586]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c         [22-Apr-22 12:36  CRC=8CAE0FFF]
+    C:\Program Files (x86)\PICC\Drivers\tv_dht11.c          [24-Nov-21 12:49  CRC=D54B50C8]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c [15-Oct-21 08:37  CRC=97FC1465]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c      [22-Apr-22 17:30  CRC=85E65A8A]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c     [22-Apr-22 10:39  CRC=D765F2E8]
+    C:\Program Files (x86)\PICC\Drivers\touch.c             [02-Mar-10 13:04  CRC=24D0ECE7]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c [15-Oct-21 08:41  CRC=A7D8AEFA]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c [15-Oct-21 08:44  CRC=A571EA9E]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_glcd.c        [17-Apr-22 09:53  CRC=E704FBAC]
+    C:\Program Files (x86)\PICC\Drivers\graphics.c          [06-Jul-10 08:49  CRC=70BB89DE]
+    bai_631_glcd_kim_giay_tv.c                              [20-Nov-23 14:31  CRC=8AC402EA]
+
+Source signature=9D9BD95C
+
+Units:
+    bai_631_glcd_dong_ho_giay (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   bai_631_glcd_dong_ho_giay.xsym
+    Errors:      bai_631_glcd_dong_ho_giay.err
+    Ext Symbols: bai_631_glcd_dong_ho_giay.esym
+    INHX32:      bai_631_glcd_dong_ho_giay.hex
+    Symbols:     bai_631_glcd_dong_ho_giay.sym
+    List:        bai_631_glcd_dong_ho_giay.lst
+    Debug/COFF:  bai_631_glcd_dong_ho_giay.cof
+    Project:     bai_631_glcd_dong_ho_giay.ccspjt
+    Call Tree:   bai_631_glcd_dong_ho_giay.tre
+    Statistics:  bai_631_glcd_dong_ho_giay.STA

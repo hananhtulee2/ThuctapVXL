@@ -1,0 +1,38 @@
+[PROJECT]
+Target=bai_615_clock_ds1307_lcd.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_615_clock_ds1307_lcd.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_615_clock_ds1307_lcd.c]
+Type=4
+[mru-list]
+1=bai_615_clock_ds1307_lcd.c
+[Opened Files]
+1=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_3key.c
+2=..\bai_616_clock_ds1307_lcd_3key\bai_616_ds1307_3key_tv.c
+3=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_tv.c
+4=..\bai_621_glcd_hien_thi_chuoi\bai_621_glcd_hien_thi_chuoi.c
+5=..\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0.c
+6=..\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0_tv.c
+7=..\bai_627_hthi_2logo\bai_627_hthi_2logo.c
+8=..\bai_633_glcd_dong_ho_gio_phut_giay\bai_633_glcd_dong_ho_gio_phut_giay.c
+9=..\bai_633_glcd_dong_ho_gio_phut_giay\bai_633_glcd_dong_ho_gio_phut_giay_tv.c
+10=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+11=bai_615_clock_ds1307_lcd.c
+12=
+13=..\bai_608_lcd_4led_dem_sp_t0\bai_608_lcd_4led_dem_sp_t0.c
+14=..\bai_614_lcd_dem_sp_soto\bai_614_lcd_dem_sp_soto.c
+15=..\bai_610_lcd_4led_dem_sp_t0_matrix_key\bai_610_lcd_4led_dem_sp_t0_matrix_key.c
+16=..\..\Chuong 4\bai_408_cai_gh_0_99_mtp4.4\bai_408_cai_gh_0_99_mtp4.4.c
+17=..\bai_611_lcd_traitim\bai_611_lcd_traitim.c
+18=..\bai_613_lcd_so_to_012345\bai_613_lcd_so_to_012345.c
+19=bai_615_clock_ds1307_lcd_tv.c
+20=bai_615_clock_ds1307_lcd.c
+21=
+[Units]
+Count=1
+1=bai_615_clock_ds1307_lcd (main)

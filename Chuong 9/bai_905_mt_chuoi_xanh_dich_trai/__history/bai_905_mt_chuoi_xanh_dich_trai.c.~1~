@@ -1,0 +1,27 @@
+#include<tv_kit_vdk_pic_all.c>
+const unsigned char chuoi_hthi[] ={"abcd"} ; 
+#include<tv_09_matran_led_quet_cot.c> 
+                                                                       
+void lay_ma_ky_tu(unsigned int8 slkt_x) {
+   unsigned int8 kytu,i,n,j ; 
+   n=0;
+   for(i=0;i<slkt_x;i++){
+      kytu=chuoi_hthi[i];
+      for(j=0;j<6;j++,n++){
+         dl_hthi[n] = hieu_chinh_4bit_cao(mt_kytu[kytu][j]);
+      
+      }
+   
+   }
+
+}
+void main() {                                                            
+   set_up_port();                                                                          
+   lay_so_luong_ky_tu_chuoi() ;                                                               
+   lay_ma_ky_tu(slkt);                           
+   while(true){                                  
+      quet_4kytu_mau_xanh(50,0);                      
+                                        
+   }
+                                          
+}

@@ -1,0 +1,257 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006-007 dl_btn
+008-00B dl_4l7d
+00C-013 dl_8l7dq
+014-01C time_w
+01D-025 time_r
+026-029 g_lcd
+02A.0   lcd_e
+02A     lcd_ctrl
+02A.1   lcd_rw
+02A.2   lcd_rs
+02A.3   lcd_p
+02B-02C so_ng
+02D-02E so_tp
+02F     nd_tren
+030     nd_duoi
+031.0   tttd
+031.1   buz_ena
+031.2   ttmd
+032-1C9 dl_hthi
+1CA-1CB slkt
+1CC-1FB dl_cot_cd
+1FC-22B dl_cot_dich
+22C-243 dl_cot_cd_do
+244-25B dl_cot_cd_xanh
+25C-273 dl_cot_dich_d
+274-28B dl_cot_dich_x
+28C-28D vtkt1
+28E-28F lm35a_ng
+290-291 lm35a_tp
+292-293 lm35a_ngt
+294     xoa_dl_48_cot.j
+294-295 xoa_dl_hienthi.j
+294-297 atan2.y
+294     sapxep_vitri_48byte_cot_xanh.k1
+294     hien_thi_ma_tran_quet_hang.ck
+294-295 xuat_1word.w
+294     adc_lm35a_doc_xuly.sl
+294     MAIN.@SCRATCH1
+295     hien_thi_ma_tran_quet_hang.j
+295     ky_tu_xanh_so_4.k
+295-298 adc_lm35a_doc_xuly.lm35a
+295     ky_tu_xanh_so_1.k
+295     ky_tu_xanh_so_3.k
+295     ky_tu_xanh_so_2.k
+295     xoa_dl_48_cot.@SCRATCH1
+295     MAIN.@SCRATCH2
+296     lay_ma_1_so_matran.so
+296     hien_thi_ma_tran_quet_hang.i
+296     xuat_1word.b1
+296-297 @DIV1616.P1
+296     xoa_dl_hienthi.@SCRATCH1
+296     ky_tu_xanh_so_1.@SCRATCH1
+296     ky_tu_xanh_so_2.@SCRATCH1
+296     ky_tu_xanh_so_3.@SCRATCH1
+296     ky_tu_xanh_so_4.@SCRATCH1
+296     xoa_dl_48_cot.@SCRATCH2
+297     xuat_1word.b0
+297     lay_ma_1_so_matran.vitri_luu
+297-298 xuat_matranled.mahang
+297     xuat_1bit_cua_48_cot_hienthi.i
+297     copy_48_cot_hienthi.i
+297     xoa_dl_hienthi.@SCRATCH2
+297     hien_thi_ma_tran_quet_hang.@SCRATCH1
+298     lay_ma_1_so_matran.j
+298-29B atan2.x
+298     @delay_us1.P1
+298-299 @DIV1616.P2
+298     xuat_1byte.x
+298.7   xuat_1byte.msb
+298     copy_48_cot_hienthi.@SCRATCH1
+298     xuat_1bit_cua_48_cot_hienthi.@SCRATCH1
+299     adc_read.solan
+299-29A xuat_matranled.macot1
+299-29C float_to_ng_2so_tp.st
+299     xuat_1byte.sb
+299     lay_ma_1_so_matran.@SCRATCH1
+299     copy_48_cot_hienthi.@SCRATCH2
+299     xuat_1bit_cua_48_cot_hienthi.@SCRATCH2
+29A     adc_read.chan_i
+29A     @DIV1616.@SCRATCH1
+29A     lay_ma_1_so_matran.@SCRATCH2
+29A     copy_48_cot_hienthi.@SCRATCH3
+29A     xuat_1bit_cua_48_cot_hienthi.@SCRATCH3
+29B.0   xuat_1bit.lsb
+29B-29E adc_read.kq_adc
+29B     xuat_1bit.bx
+29B-29C @MUL1616.P1
+29B-29C xuat_matranled.macot2
+29B     lay_ma_1_so_matran.@SCRATCH3
+29C-29F atan2.z
+29C     lay_ma_1_so_matran.@SCRATCH4
+29D-2A0 @MULFF.P1
+29D-29E xuat_matranled.macot3
+29D-29E @MUL1616.P1
+29D-2A0 @SFTOI.P2
+29F-2A0 xuat_2byte.v
+29F     adc_read.i
+29F     @MUL1616.@SCRATCH1
+2A0.0   atan2.sign
+2A0-2A1 @ITOF.P1
+2A0-2A3 @ADDFF.P2
+2A0-2A3 @DIVFF.P3
+2A0.7   xuat_2byte.msb
+2A1     xuat_2byte.i
+2A1     atan2.quad
+2A1-2A4 @MULFF.P1
+2A4-2A7 @DIVFF.P1
+2A4-2A7 @ADDFF.P2
+2A5     @MULFF.@SCRATCH1
+2A6     @MULFF.@SCRATCH2
+2A7     @MULFF.@SCRATCH3
+2A8     @ADDFF.@SCRATCH1
+2A8     @DIVFF.@SCRATCH1
+2A9     @ADDFF.@SCRATCH2
+2A9     @DIVFF.@SCRATCH2
+2AA     @ADDFF.@SCRATCH3
+2AA     @DIVFF.@SCRATCH3
+2AB     @ADDFF.@SCRATCH4
+2AB     @DIVFF.@SCRATCH4
+2AC     @ADDFF.@SCRATCH5
+2AC     @DIVFF.@SCRATCH5
+2AD     @ADDFF.@SCRATCH6
+2AD     @DIVFF.@SCRATCH6
+2AE     @ADDFF.@SCRATCH7
+2AF     @ADDFF.@SCRATCH8
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  MT_KYTU.call
+000012  MT_KYTU.data
+000312  mq_hang.call
+000322  mq_hang.data
+00032A  @const1091.call
+00032C  @const1097.call
+00032E  @const1102.call
+000330  @const1112.call
+00033A  @const1114.call
+000350  @const1174.call
+00035C  xuat_1byte
+000386  xuat_1word
+00039C  xoa_tat_6module
+00040C  set_up_port
+000446  xoa_dl_hienthi
+000476  @ITOF
+0004AC  @ADDFF
+000724  @DIVFF
+000882  adc_read
+000952  @SFTOI
+00098E  @MULFF
+000A86  float_to_ng_2so_tp
+000B6E  adc_lm35a_doc_xuly
+000BE6  @DIV1616
+000C2C  @MUL1616
+000C50  lay_ma_1_so_matran
+000CBA  xoa_dl_48_cot
+000CDE  ky_tu_xanh_so_1
+000D50  ky_tu_xanh_so_2
+000DC4  ky_tu_xanh_so_3
+000E38  ky_tu_xanh_so_4
+000EAC  sapxep_vitri_48byte_cot_xanh
+000EC8  copy_48_cot_hienthi
+000F0E  xuat_1bit
+000F32  xuat_1bit_cua_48_cot_hienthi
+000F82  xuat_2byte
+000FAE  @delay_us1
+000FD0  xuat_matranled
+001004  hien_thi_ma_tran_quet_hang
+001082  @cinit1
+001082  MAIN
+0010BE  @cinit2
+
+Project Directory:
+    E:\TT Vi Xu Ly\Code\Chuong 9\bai_921_mtqh_adc_lm35\
+
+Project Files:
+    bai_921_mtqh_adc_lm35.c                                 [12-Dec-23 17:17  CRC=8E889416]
+    C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c [09-Feb-22 11:37  CRC=95887F12]
+    C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c [25-Aug-22 08:59  CRC=91C401BF]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [09-Aug-13 15:40  CRC=A157EDDE]
+    C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c   [06-Jan-22 21:24  CRC=24896EA4]
+    C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c [04-Oct-21 08:38  CRC=26E88B80]
+    C:\Program Files (x86)\PICC\Drivers\math.h              [28-Sep-12 11:35  CRC=546412C9]
+    C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c   [15-Oct-21 08:09  CRC=01B74A28]
+    C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c  [25-Feb-22 15:46  CRC=4A84D16F]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c [15-Oct-21 08:15  CRC=1A33A3DD]
+    C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c [03-Apr-22 13:12  CRC=E68E65E0]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c    [15-Oct-21 08:17  CRC=2A209586]
+    C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c         [22-Apr-22 12:36  CRC=8CAE0FFF]
+    C:\Program Files (x86)\PICC\Drivers\tv_dht11.c          [24-Nov-21 12:49  CRC=D54B50C8]
+    C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c [15-Oct-21 08:37  CRC=97FC1465]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c      [22-Apr-22 17:30  CRC=85E65A8A]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c     [22-Apr-22 10:39  CRC=D765F2E8]
+    C:\Program Files (x86)\PICC\Drivers\touch.c             [02-Mar-10 13:04  CRC=24D0ECE7]
+    C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c [15-Oct-21 08:41  CRC=A7D8AEFA]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c [15-Oct-21 08:44  CRC=A571EA9E]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_quet_hang.c [01-Dec-22 15:30  CRC=D588FC11]
+    C:\Program Files (x86)\PICC\Drivers\tv_09_font.c        [17-Feb-21 17:58  CRC=721F1EEB]
+    bai_701_lm35a_tv.c                                      [27-Nov-23 14:37  CRC=2A5F9D19]
+
+Source signature=D3E668D7
+
+Units:
+    bai_921_mtqh_adc_lm35 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   bai_921_mtqh_adc_lm35.xsym
+    Errors:      bai_921_mtqh_adc_lm35.err
+    Ext Symbols: bai_921_mtqh_adc_lm35.esym
+    INHX32:      bai_921_mtqh_adc_lm35.hex
+    Symbols:     bai_921_mtqh_adc_lm35.sym
+    List:        bai_921_mtqh_adc_lm35.lst
+    Debug/COFF:  bai_921_mtqh_adc_lm35.cof
+    Project:     bai_921_mtqh_adc_lm35.ccspjt
+    Call Tree:   bai_921_mtqh_adc_lm35.tre
+    Statistics:  bai_921_mtqh_adc_lm35.STA

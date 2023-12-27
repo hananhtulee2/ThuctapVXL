@@ -1,0 +1,27 @@
+[PROJECT]
+Target=bai_414_dem_xung_t0_stop_run_ud_32led_gh.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_414_dem_xung_t0_stop_run_ud_32led_gh.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_414_dem_xung_t0_stop_run_ud_32led_gh.c]
+Type=4
+[mru-list]
+1=bai_414_dem_xung_t0_stop_run_ud_32led_gh.c
+[Opened Files]
+1=bai_414_dem_xung_t0_stop_run_ud_32led_gh.c
+2=..\bai_406_cai_gh_0_99_2bt_up_dw\bai_406_cai_gh_0_99_2bt_up_dw.c
+3=C:\Program Files (x86)\PICC\Drivers\chuong3_32led_if_no_delay.c
+4=..\bai_421_tong_hop_2module\bai_411_dem_xung_t0_tv.c
+5=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+6=C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+7=..\bai_413_dem_xung_t0_stop_run_ud_32led\bai_413_dem_xung_t0_stop_run_ud_32led.c
+8=..\bai_412_dem_xung_t0_stop_run_32led.c\bai_412_dem_xung_t0_stop_run_32led.c
+9=..\bai_415_dem_xung_t0_stop_run_ud_32led_gh_mtp4.4.c\bai_415_dem_xung_t0_stop_run_ud_32led_gh_mtp4.4.c
+10=
+[Units]
+Count=1
+1=bai_414_dem_xung_t0_stop_run_ud_32led_gh (main)

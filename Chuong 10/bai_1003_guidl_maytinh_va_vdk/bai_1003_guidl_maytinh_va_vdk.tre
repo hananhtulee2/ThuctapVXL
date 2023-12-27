@@ -1,0 +1,88 @@
+ÀÄbai_1003_guidl_maytinh_va_vdk
+   ÃÄMAIN  0/318  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port  0/58  Ram=0
+   ³  ³  ÀÄxoa_tat_6module  0/88  Ram=0
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+   ³  ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄxuat_1word  0/22  Ram=4
+   ³  ³        ÀÄ*
+   ³  ÃÄlcd_setup  0/72  Ram=0
+   ³  ³  ÃÄlcd_command  0/10  Ram=1
+   ³  ³  ³  ÀÄlcd_xuat  0/26  Ram=1
+   ³  ³  ³     ÃÄxuat_lcd  0/16  Ram=2
+   ³  ³  ³     ³  ÀÄxuat_glcd_lcd  0/36  Ram=0
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/38  Ram=2
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/38  Ram=2
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/38  Ram=2
+   ³  ³  ³     ³     ÀÄxuat_1byte  0/38  Ram=2
+   ³  ³  ³     ÀÄxuat_lcd  0/16  Ram=2
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄlcd_command  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_command  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÀÄlcd_command  0/10  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ÃÄ@const977  0/30  Ram=0
+   ³  ³  ÀÄlcd_command  0/10  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_data  0/10  Ram=1
+   ³  ³  ÀÄlcd_xuat  0/26  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_khoi_tao_cgram_so_to  0/44  Ram=2
+   ³  ³  ÃÄlcd_command  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@const987  0/90  Ram=0
+   ³  ³  ÀÄlcd_data  0/10  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_968  0/32  Ram=2
+   ³  ³  ÀÄlcd_data  0/10  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_968  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄnhan_dulieu  0/38  Ram=0
+   ³  ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_data  0/10  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄtang_giay  0/18  Ram=0
+   ³  ÃÄlcd_hthi_giay_bcd_soto  0/60  Ram=1
+   ³  ³  ÃÄ@DIVS88  0/72  Ram=4
+   ³  ³  ÃÄlcd_hien_thi_so_to  0/92  Ram=6
+   ³  ³  ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlcd_goto_xy  0/26  Ram=3
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@MUL88  0/76  Ram=2
+   ³  ³  ³  ÃÄ@const983  0/86  Ram=0
+   ³  ³  ³  ÀÄlcd_data  0/10  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@DIVS88  0/72  Ram=4
+   ³  ³  ÀÄlcd_hien_thi_so_to  0/92  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_hthi_giay_hex_soto  0/58  Ram=1
+   ³  ³  ÃÄ@DIVS88  0/72  Ram=4
+   ³  ³  ÃÄlcd_hien_thi_so_to  0/92  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@DIVS88  0/72  Ram=4
+   ³  ³  ÀÄlcd_hien_thi_so_to  0/92  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÀÄ@PUTCHARI_BIU_1  0/10  Ram=0
+   ÃÄinterrupt_uart  0/20  Ram=0
+   ÀÄinterrupt_timer3  0/16  Ram=0

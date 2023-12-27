@@ -1,0 +1,35 @@
+[PROJECT]
+Target=bai_703_lcd_7doan_lm35_a_b_den_buz_bt3.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_703_lcd_7doan_lm35_a_b_den_buz_bt3.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_703_lcd_7doan_lm35_a_b_den_buz_bt3.c]
+Type=4
+[mru-list]
+1=bai_703_lcd_7doan_lm35_a_b_den_buz_bt3.c
+[Opened Files]
+1=..\..\Chuong 6\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_3key.c
+2=..\..\Chuong 6\bai_616_clock_ds1307_lcd_3key\bai_616_ds1307_3key_tv.c
+3=..\..\Chuong 6\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_tv.c
+4=..\..\Chuong 6\bai_621_glcd_hien_thi_chuoi\bai_621_glcd_hien_thi_chuoi.c
+5=..\..\Chuong 6\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0.c
+6=..\..\Chuong 6\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0_tv.c
+7=..\..\Chuong 6\bai_627_hthi_2logo\bai_627_hthi_2logo.c
+8=..\..\Chuong 6\bai_633_glcd_dong_ho_gio_phut_giay\bai_633_glcd_dong_ho_gio_phut_giay.c
+9=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+10=..\..\Chuong 6\bai_615_clock_ds1307_lcd\bai_615_clock_ds1307_lcd.c
+11=..\..\Chuong 6\bai_615_clock_ds1307_lcd\bai_615_clock_ds1307_lcd_tv.c
+12=C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+13=C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c
+14=C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c
+15=..\bai_702_lm35b_den_buz_bt3\bai_702_lm35b_tv.c
+16=..\bai_702_bt3_lcd_tv.c
+17=bai_703_lcd_7doan_lm35_a_b_den_buz_bt3.c
+18=
+[Units]
+Count=1
+1=bai_703_lcd_7doan_lm35_a_b_den_buz_bt3 (main)

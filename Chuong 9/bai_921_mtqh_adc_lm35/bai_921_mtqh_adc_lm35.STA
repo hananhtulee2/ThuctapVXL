@@ -1,0 +1,102 @@
+
+ROM used:   4540/32768 (14%)
+            4540/32768 (14%) including unused fragments
+
+            0.7 Average locations per line
+            3.3 Average locations per statement
+
+RAM used:   662/2048 (32%) at main() level
+            688/2048 (34%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   19    10   1  bai_921_mtqh_adc_lm35.c
+   24     0   0  C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+  212    46   3  C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+  821     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  209    88   6  C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+   98    63   5  C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c
+ 2229   257  19  C:\Program Files (x86)\PICC\Drivers\math.h
+   41    15   1  C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c
+  105    47   3  C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c
+  112    48   4  C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c
+  146    50   4  C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c
+   42    12   1  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c
+  440   205  15  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+   76    35   3  C:\Program Files (x86)\PICC\Drivers\tv_dht11.c
+  123    37   3  C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c
+  419    75   5  C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c
+   90    39   3  C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c
+  230    54   4  C:\Program Files (x86)\PICC\Drivers\touch.c
+   66    27   2  C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c
+   60    20   1  C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c
+  346   222  16  C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_quet_hang.c
+  154     0   0  C:\Program Files (x86)\PICC\Drivers\tv_09_font.c
+   35    16   1  bai_701_lm35a_tv.c
+----- -----
+ 6097  1366 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     34   0    1             @delay_us1
+0     42   0    2   239  4.3  xuat_1byte
+0     22   0    4   131  2.8  xuat_1word
+0    112   1    0   396  1.4  xoa_tat_6module
+0     58   1    0   253  2.3  set_up_port
+0     36   0    1   163  2.5  xuat_1bit
+0     60   1    4             @SFTOI
+0     54   1    2             @ITOF
+0    248   3   11             @MULFF
+0    632   7   16             @ADDFF
+0    350   4   14             @DIVFF
+0     70   1    5             @DIV1616
+0      2   0    0             @const1091
+0      2   0    0             @const1097
+0      2   0    0             @const1102
+0     10   0    0             @const1112
+0     22   0    0             @const1114
+0    208   2    6   271  5.3  adc_read
+0    232   3    4   127  3.1  float_to_ng_2so_tp
+0     12   0    0             @const1174
+0     44   0    3   231  4.0  xuat_2byte
+0     52   1    8   188  2.4  xuat_matranled
+0    782   9    0   242  3.7  @const1218
+0     24   0    0    96  2.1  @const1222
+0     48   1    4   118  3.9  xoa_dl_hienthi
+0    106   1    7   217  5.5  lay_ma_1_so_matran
+0     36   0    5   132  2.9  @MUL1616
+0    114   1    2   348  2.8  ky_tu_xanh_so_1
+0    116   1    2   348  2.8  ky_tu_xanh_so_2
+0    116   1    2   348  2.8  ky_tu_xanh_so_3
+0    116   1    2   348  2.8  ky_tu_xanh_so_4
+0     28   0    1    82  1.4  sapxep_vitri_48byte_cot_xanh
+0     36   0    3   105  3.4  xoa_dl_48_cot
+0     70   1    4   116  3.4  copy_48_cot_hienthi
+0     80   1    4   127  3.5  xuat_1bit_cua_48_cot_hienthi
+0    126   1    4   383  4.5  hien_thi_ma_tran_quet_hang
+0    120   1    5   162  2.6  adc_lm35a_doc_xuly
+0    314   3    2   216  3.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               25
+    Statements              1366
+    Comments                1517
+    Volume (V)              10337
+    Difficulty (D)          78.6
+    Effort to implement (E) 812030
+    Time to implement (T)   12 hours, 32 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   16
+    Maintainability (MI)    51
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  4536  28228  
+
+
+

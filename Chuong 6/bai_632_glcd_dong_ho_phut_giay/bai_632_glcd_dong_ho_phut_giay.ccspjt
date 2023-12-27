@@ -1,0 +1,28 @@
+[PROJECT]
+Target=bai_632_glcd_dong_ho_phut_giay.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_632_glcd_dong_ho_phut_giay.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_632_glcd_dong_ho_phut_giay.c]
+Type=4
+[mru-list]
+1=bai_632_glcd_dong_ho_phut_giay.c
+[Opened Files]
+1=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_3key.c
+2=..\bai_616_clock_ds1307_lcd_3key\bai_616_ds1307_3key_tv.c
+3=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_tv.c
+4=..\bai_621_glcd_hien_thi_chuoi\bai_621_glcd_hien_thi_chuoi.c
+5=..\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0.c
+6=..\bai_622_glcd_dem_sp_t0\bai_622_glcd_dem_sp_t0_tv.c
+7=..\bai_627_hthi_2logo\bai_627_hthi_2logo.c
+8=bai_632_glcd_dong_ho_phut_giay.c
+9=C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+10=bai_632_glcd_dong_ho_phut_giay_tv.c
+11=
+[Units]
+Count=1
+1=bai_632_glcd_dong_ho_phut_giay (main)

@@ -1,0 +1,24 @@
+[PROJECT]
+Target=bai_404__mtp4.4_on_off_8ledon.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_404__mtp4.4_on_off_8ledon.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_404__mtp4.4_on_off_8ledon.c]
+Type=4
+[mru-list]
+1=bai_404__mtp4.4_on_off_8ledon.c
+[Opened Files]
+1=..\..\Tuan2\bai_333_32led_14yeu_cau_2btn_ct\bai_333_32led_14yeu_cau_2btn_ct.c
+2=..\bai_401_mtp4.4_7doan\bai_401_mtp4.4_7doan.c
+3=..\bai_403_mtp4.4_4led_dich_undo4\bai_403_mtp4.4_4led_dich_undo4.c
+4=bai_404__mtp4.4_on_off_8ledon.c
+5=..\bai_406_cai_gh_0_99_2bt_up_dw\bai_406_cai_gh_0_99_2bt_up_dw.c
+6=
+7=
+[Units]
+Count=1
+1=bai_404__mtp4.4_on_off_8ledon (main)

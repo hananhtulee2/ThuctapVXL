@@ -1,0 +1,85 @@
+
+ROM used:   1750/32768 (5%)
+            1750/32768 (5%) including unused fragments
+
+            0.3 Average locations per line
+            1.5 Average locations per statement
+
+RAM used:   54/2048 (3%) at main() level
+            74/2048 (4%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   55    35   3  bai_720_at24_wr_rd_page.c
+   24     0   0  C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+  212    46   4  C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+  821     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  209    88   8  C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+   98    63   5  C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c
+ 2229   257  22  C:\Program Files (x86)\PICC\Drivers\math.h
+   41    15   1  C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c
+  105    47   4  C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c
+  112    48   4  C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c
+  146    50   4  C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c
+   42    12   1  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c
+  440   205  18  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+   76    35   3  C:\Program Files (x86)\PICC\Drivers\tv_dht11.c
+  123    37   3  C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c
+  419    75   7  C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c
+   90    39   3  C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c
+  230    54   5  C:\Program Files (x86)\PICC\Drivers\touch.c
+   66    27   2  C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c
+   60    20   2  C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c
+----- -----
+ 5598  1153 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   1    1             @delay_ms1
+0    102   3    3             @I2C_READ_1
+0    108   3    1             @I2C_WRITE_1
+0     32   1    0             @const655
+0     38   1    2   239  4.3  xuat_1byte
+0     22   1    4   131  2.8  xuat_1word
+0     88   3    0   396  1.4  xoa_tat_6module
+0     58   2    0   253  2.3  set_up_port
+0     34   1    4   160  1.8  xuat_32led_don_4byte
+0     34   1    0   152  1.8  xuat_4led_7doan_4so
+0    312   9    9   531  5.4  md4l7d_giaima_3so_vitri_vn
+0     66   2    5             @DIV1616
+0      2   0    0             @const1091
+0      2   0    0             @const1097
+0      2   0    0             @const1102
+0     10   0    0             @const1112
+0     22   1    0             @const1114
+0     12   0    0             @const1174
+0     72   2    0    21  1.0  at24_reset
+0     64   2    4    90  1.7  at24_khoi_tao_ghi
+0    114   3    4   125  1.8  at24_khoi_tao_doc
+0    154   4    9   548  6.9  at24cxx_ghi_data_page
+0    152   4    5   482  5.6  at24cxx_doc_data_page
+0    208   6    1   174  2.7  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              1153
+    Comments                1374
+    Volume (V)              5549
+    Difficulty (D)          38.3
+    Effort to implement (E) 212456
+    Time to implement (T)   3 hours, 17 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   8
+    Maintainability (MI)    56
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1746  31018  
+
+
+

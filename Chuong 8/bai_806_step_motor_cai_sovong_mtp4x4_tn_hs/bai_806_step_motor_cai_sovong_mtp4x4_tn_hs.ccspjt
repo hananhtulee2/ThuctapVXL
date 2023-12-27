@@ -1,0 +1,16 @@
+[PROJECT]
+Target=bai_806_step_motor_cai_sovong_mtp4x4_tn_hs.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_806_step_motor_cai_sovong_mtp4x4_tn_hs.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_806_step_motor_cai_sovong_mtp4x4_tn_hs.c]
+Type=4
+[mru-list]
+1=bai_806_step_motor_cai_sovong_mtp4x4_tn_hs.c
+[Units]
+Count=1
+1=bai_806_step_motor_cai_sovong_mtp4x4_tn_hs (main)

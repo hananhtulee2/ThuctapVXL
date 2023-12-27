@@ -1,0 +1,35 @@
+#define xt 96 
+#define yt 32
+#define bks 20
+signed int16 xs_ve,ys_ve,tgs45 ; 
+float xs_tinh,ys_tinh,goc_s ; 
+
+void glcd_ve_cac_vong_tron_so() {
+   unsigned char glcd_text1[]="Clock: UTE"}, glcd_12[]{"12"}
+   unsigned char glcd_3[]="3" , glcd_6[]="6" , glcd_9[]="9";
+   
+   glcd_setup(glcd_graphic_mode);
+   glcd_mau_nen(0);
+   glcd_text57(0,0,glcd_text1,1,1); 
+   
+   glcd_text57(xt-5,yt-29,glcd_12,1,1); 
+   glcd_text57(xt-3,yt+23,glcd_6,1,1);
+   glcd_text57(xt-28,yt-3,glcd_9,1,1);
+   glcd_text57(xt+24,yt-3,glcd_3,1,1);
+   
+   glcd_circle(xt,yt,bks+11,no_fill,sang);  
+   glcd_circle(xt,yt,bks+2,no_fill,sang);
+                                                          
+   glcd_circle(xt+12,yt-23,+2,co_fill,sang); 
+   glcd_circle(xt+23,yt-12,+2,co_fill,sang);
+   glcd_circle(xt+12,yt+23,+2,co_fill,sang);  
+   glcd_circle(xt+23,yt+12,+2,co_fill,sang);
+   glcd_circle(xt-12,yt-23,+2,co_fill,sang);  
+   glcd_circle(xt-23,yt-12,+2,co_fill,sang);
+   glcd_circle(xt-12,yt+23,+2,co_fill,sang);
+   glcd_circle(xt-23,yt+12,+2,co_fill,sang);
+   
+   
+   
+   
+}

@@ -1,0 +1,16 @@
+[PROJECT]
+Target=bai_520_clock_ds1307_8led7doan_full.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_520_clock_ds1307_8led7doan_full.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_520_clock_ds1307_8led7doan_full.c]
+Type=4
+[mru-list]
+1=bai_520_clock_ds1307_8led7doan_full.c
+[Units]
+Count=1
+1=bai_520_clock_ds1307_8led7doan_full (main)

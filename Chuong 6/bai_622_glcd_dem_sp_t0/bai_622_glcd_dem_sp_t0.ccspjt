@@ -1,0 +1,26 @@
+[PROJECT]
+Target=bai_622_glcd_dem_sp_t0.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_622_glcd_dem_sp_t0.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_622_glcd_dem_sp_t0.c]
+Type=4
+[mru-list]
+1=bai_622_glcd_dem_sp_t0.c
+[Opened Files]
+1=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_3key.c
+2=..\bai_616_clock_ds1307_lcd_3key\bai_616_ds1307_3key_tv.c
+3=..\bai_616_clock_ds1307_lcd_3key\bai_616_clock_ds1307_lcd_tv.c
+4=..\bai_621_glcd_hien_thi_chuoi\bai_621_glcd_hien_thi_chuoi.c
+5=bai_622_glcd_dem_sp_t0.c
+6=bai_622_glcd_dem_sp_t0_tv.c
+7=C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+8=C:\Program Files (x86)\PICC\Devices\18f4550.h
+9=
+[Units]
+Count=1
+1=bai_622_glcd_dem_sp_t0 (main)

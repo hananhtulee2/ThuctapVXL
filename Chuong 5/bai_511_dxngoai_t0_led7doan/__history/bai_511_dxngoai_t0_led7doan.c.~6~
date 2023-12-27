@@ -1,0 +1,33 @@
+#include <tv_kit_vdk_pic_all.c>    
+signed int16 t0_tam,t0; 
+signed int16 g_han ;                                                                  
+                                   
+void b511_hienthi_8led7doanquet() {    
+   md4l7d_giaima_2so_vitri_vn(t0,1,cx_vn);   
+   hien_thi_8led_7doan_quet();                        
+}                               
+void b411_dem_xung_ngoai() {              
+   t0 = get_timer0() ;                                        
+   if(t0_tam != t0) {                         
+      t0_tam = t0 ; 
+     b511_hienthi_8led7doanquet() ; 
+      if(t0 >= g_han) {
+         set_timer0(0) ; 
+         buzzer_on_off(300) ;  
+      }
+   }
+}
+                                                                              
+void main() {                                   
+   set_up_port() ; 
+   setup_timer_0(t0_ext_l_to_h|t0_div_1);
+   set_timer0(0) ;   
+   t0_tam = 1 ; 
+   g_han = 50 ; 
+   b511_hienthi_8led7doanquet();
+   while(TRUE) {        
+     
+      b411_dem_xung_ngoai();
+   }                                             
+                                                      
+}

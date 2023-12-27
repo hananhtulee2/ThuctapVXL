@@ -1,0 +1,16 @@
+[PROJECT]
+Target=bai_704_lcd_7doan_lm35a_b_den_buzz_3bt.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_704_lcd_7doan_lm35a_b_den_buzz_3bt.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_704_lcd_7doan_lm35a_b_den_buzz_3bt.c]
+Type=4
+[mru-list]
+1=bai_704_lcd_7doan_lm35a_b_den_buzz_3bt.c
+[Units]
+Count=1
+1=bai_704_lcd_7doan_lm35a_b_den_buzz_3bt (main)

@@ -1,0 +1,16 @@
+[PROJECT]
+Target=bai_912_mtqh_abcd_do.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_912_mtqh_abcd_do.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_912_mtqh_abcd_do.c]
+Type=4
+[mru-list]
+1=bai_912_mtqh_abcd_do.c
+[Units]
+Count=1
+1=bai_912_mtqh_abcd_do (main)

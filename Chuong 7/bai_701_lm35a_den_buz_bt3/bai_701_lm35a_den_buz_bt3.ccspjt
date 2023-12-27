@@ -1,0 +1,42 @@
+[PROJECT]
+Target=bai_701_lm35a_den_buz_bt3.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=bai_701_lm35a_den_buz_bt3.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_701_lm35a_den_buz_bt3.c]
+Type=4
+[mru-list]
+1=bai_701_lm35a_den_buz_bt3.c
+[Opened Files]
+1=..\..\Chuong 8\bai_801_step_motor_on_off_inv\bai_801_step_motor_on_off_inv.c
+2=C:\Program Files (x86)\PICC\Drivers\tv_08_step_motor.c
+3=..\..\Chuong 8\bai_802_step_motor_on_off_inv_hthi_sb\bai_802_step_motor_on_off_inv_hthi_sb.c
+4=..\..\Chuong 8\bai_803_step_motor_on_off_inv_hthi_sb_fh\bai_803_step_motor_on_off_inv_hthi_sb_fh.c
+5=..\..\Chuong 8\bai_804_step_motor_on_off_inv_hthi_sbv_fh\bai_804_step_motor_on_off_inv_hthi_sbv_fh.c
+6=..\..\Chuong 8\bai_805_step_motor_on_off_inv_hthI_lcdsbv_fh\bai_805_step_motor_on_off_inv_hthI_lcdsbv_fh.c
+7=..\..\Chuong 8\bai_806_step_motor_cai_sovong_mtp4x4_tn_hs\bai_806_step_motor_cai_sovong_mtp4x4_tn_hs.c
+8=..\..\Chuong 8\bai_806_step_motor_cai_sovong_mtp4x4_tn_hs\bai_806_step_motor_tv.c
+9=..\..\Chuong 8\bai_811_dc_motor_on_off_inv\bai_811_dc_motor_on_off_inv.c
+10=C:\Program Files (x86)\PICC\Drivers\tv_08_dc_motor.c
+11=..\..\Chuong 8\bai_811_dc_motor_on_off_inv\bai_811_dc_motor_on_off_inv_tv.c
+12=..\..\Chuong 8\bai_812_dc_motor_on_off_inv_tv\bai_812_dc_motor_on_off_tn_theo_giay.c
+13=..\..\Chuong 8\bai_813_dc_motor_on_off_tn_theo_giay_glcd\bai_813_dc_motor_on_off_tn_theo_giay_glcd.c
+14=..\..\Chuong 8\bai_813_dc_motor_on_off_tn_theo_giay_glcd\bai_628_glcd_kim_giay_tv.c
+15=..\..\Chuong 8\bai_815_dc_motor_pwm_ccp1_up_dw_stop\bai_815_dc_motor_pwm_ccp1_up_dw_stop.c
+16=..\..\Chuong 8\bai_819_dc_up_dw_stop_encoder_tocdo\bai_819_dc_up_dw_stop_encoder_tocdo.c
+17=..\..\Chuong 8\bai_821_dc_smt_up_dw_off\bai_821_dc_smt_up_dw_off.c
+18=..\..\Chuong 9\bai_904_mt_iloy_xanh_do_cam\bai_904_mt_iloy_xanh_do_cam.c
+19=C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_quet_hang.c
+20=..\..\Chuong 9\bai_921_mtqh_adc_lm35\bai_921_mtqh_adc_lm35.c
+21=..\..\Chuong 6\bai_614_lcd_dem_sp_soto\bai_614_lcd_dem_sp_soto.c
+22=bai_701_lm35a_den_buz_bt3.c
+23=..\bai_716_lcd_7doan_pcf_lm35ab_den_buz_bt3\bai_716_lcd_7doan_pcf_lm35ab_den_buz_bt3.c
+24=..\bai_716_lcd_7doan_pcf_lm35ab_den_buz_bt3\bai_716_pcf_tv.c
+25=
+[Units]
+Count=1
+1=bai_701_lm35a_den_buz_bt3 (main)

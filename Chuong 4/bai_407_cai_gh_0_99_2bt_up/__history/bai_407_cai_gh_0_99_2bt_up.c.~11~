@@ -1,0 +1,33 @@
+#include <tv_kit_vdk_pic_all.c> 
+signed int8 g_han ;
+unsigned int8 dem ; 
+void b406_hienthi_4led7doan() {                 
+   md4l7d_giaima_2so_vitri_vn(g_han,3,cx_vn);
+   xuat_4led_7doan_4so();                                        
+                               
+}                                                          
+void b406_up_dw_g_han() {              
+     if(phim_up_c2(250) == co_nhan ) {
+        dem++ ;   
+        if(dem < 9) {  
+           dl_4l7d[3] = ma7doan[dem] ; 
+        } else dem = 0;                              
+        xuat_4led_7doan_4so() ;   
+   }                                                        
+     if(phim_dw_c2(250) == co_nhan ) {
+        dem++ ;
+        if(dem < 9) {
+           dl_4l7d[2] = ma7doan[dem] ; 
+        } else dem = 0 ;                            
+        xuat_4led_7doan_4so() ;   
+   } 
+}
+                      
+void main() {
+   set_up_port() ;    
+   g_han = 50 ; 
+   b406_hienthi_4led7doan() ; 
+   while(TRUE){                              
+      b406_up_dw_g_han() ;   
+   }
+}

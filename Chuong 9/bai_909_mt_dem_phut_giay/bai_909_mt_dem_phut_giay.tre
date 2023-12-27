@@ -1,0 +1,52 @@
+ÀÄbai_909_mt_dem_phut_giay
+   ÃÄMAIN  0/228  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port  0/58  Ram=0
+   ³  ³  ÀÄxoa_tat_6module  0/112  Ram=0
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÃÄxuat_1byte  0/42  Ram=2
+   ³  ³     ³  ÀÄxuat_1byte  0/42  Ram=2
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄxuat_1word  0/22  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄxuat_1word  0/22  Ram=4
+   ³  ³        ÀÄ*
+   ³  ÃÄxoa_dl_hienthi  0/44  Ram=4
+   ³  ÃÄquet_4kytu_mau_do  0/152  Ram=5
+   ³  ³  ÃÄlay_ma_quet_24_cot_do  0/192  Ram=1
+   ³  ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+   ³  ³  ³  ÃÄ@const1222  0/42  Ram=0
+   ³  ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+   ³  ³  ³  ÃÄ@const1222  0/42  Ram=0
+   ³  ³  ³  ÃÄdoi_1_bit_1_sang_thutu  0/28  Ram=2
+   ³  ³  ³  ÀÄ@const1222  0/42  Ram=0
+   ³  ³  ÃÄxuat_matranled  0/50  Ram=8
+   ³  ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+   ³  ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+   ³  ³  ³  ÃÄxuat_2byte  0/44  Ram=3
+   ³  ³  ³  ÀÄxuat_2byte  0/44  Ram=3
+   ³  ³  ÀÄxuat_matranled  0/50  Ram=8
+   ³  ³     ÀÄ*
+   ³  ÀÄtang_giay_phut  0/182  Ram=1
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÃÄlay_ma_1_so_matran  0/130  Ram=7
+   ³     ³  ÃÄ@MUL1616  0/36  Ram=5
+   ³     ³  ÃÄ@const1218  0/792  Ram=0
+   ³     ³  ÀÄhieu_chinh_4bit_cao  0/52  Ram=3
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÃÄlay_ma_1_so_matran  0/130  Ram=7
+   ³     ³  ÀÄ*
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÃÄlay_ma_1_so_matran  0/130  Ram=7
+   ³     ³  ÀÄ*
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÃÄ@DIVS88  0/76  Ram=4
+   ³     ÀÄlay_ma_1_so_matran  0/130  Ram=7
+   ³        ÀÄ*
+   ÀÄinterrupt_timer3  0/20  Ram=0

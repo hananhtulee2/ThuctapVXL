@@ -1,0 +1,98 @@
+
+ROM used:   2998/32768 (9%)
+            2998/32768 (9%) including unused fragments
+
+            0.5 Average locations per line
+            2.2 Average locations per statement
+
+RAM used:   654/2048 (32%) at main() level
+            674/2048 (33%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   21    11   1  bai_913_mtqh_abcd_xanh_do.c
+   24     0   0  C:\Program Files (x86)\PICC\Drivers\tv_kit_vdk_pic_all.c
+  212    46   3  C:\Program Files (x86)\PICC\Drivers\tv_00_define_18f4550.c
+  821     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  209    88   7  C:\Program Files (x86)\PICC\Drivers\tv_01_4_nutnhan.c
+   98    63   5  C:\Program Files (x86)\PICC\Drivers\tv_02_matran_phim4x4_138.c
+ 2229   257  19  C:\Program Files (x86)\PICC\Drivers\math.h
+   41    15   1  C:\Program Files (x86)\PICC\Drivers\tv_03_32led_don.c
+  105    47   3  C:\Program Files (x86)\PICC\Drivers\tv_04_4led_7doan.c
+  112    48   4  C:\Program Files (x86)\PICC\Drivers\tv_05_8led_7doan_quet.c
+  146    50   4  C:\Program Files (x86)\PICC\Drivers\tv_05_i2c_ds13_pcf.c
+   42    12   1  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd_glcd.c
+  440   205  15  C:\Program Files (x86)\PICC\Drivers\tv_06_lcd.c
+   76    35   3  C:\Program Files (x86)\PICC\Drivers\tv_dht11.c
+  123    37   3  C:\Program Files (x86)\PICC\Drivers\tv_08_relay_triac_buzzer_dc.c
+  419    75   6  C:\Program Files (x86)\PICC\Drivers\tv_07_adc_cb.c
+   90    39   3  C:\Program Files (x86)\PICC\Drivers\tv_07_ds18b20.c
+  230    54   4  C:\Program Files (x86)\PICC\Drivers\touch.c
+   66    27   2  C:\Program Files (x86)\PICC\Drivers\tv_07_i2c_at24cxx.c
+   60    20   1  C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_mbi.c
+  346   222  16  C:\Program Files (x86)\PICC\Drivers\tv_09_matran_led_quet_hang.c
+  154     0   0  C:\Program Files (x86)\PICC\Drivers\tv_09_font.c
+----- -----
+ 6064  1351 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     34   1    1             @delay_us1
+0     42   1    2   239  4.3  xuat_1byte
+0     22   0    4   131  2.8  xuat_1word
+0    112   2    0   396  1.4  xoa_tat_6module
+0     58   1    0   253  2.3  set_up_port
+0     36   1    1   163  2.5  xuat_1bit
+0      2   0    0             @const1091
+0      2   0    0             @const1097
+0      2   0    0             @const1102
+0     10   0    0             @const1112
+0     22   0    0             @const1114
+0     12   0    0             @const1174
+0     44   1    3   231  4.0  xuat_2byte
+0     52   1    8   188  2.4  xuat_matranled
+0     22   0    0   661  5.8  @const1215
+0    782  13    0   661  5.8  @const1218
+0     24   0    0   661  5.8  @const1222
+0     52   1    1    53  2.5  lay_so_luong_ky_tu_chuoi
+0     36   1    5   661  5.8  @MUL1616
+0    136   2    9   333  4.5  lay_ma_ky_tu
+0    114   2    2   348  2.8  ky_tu_xanh_so_1
+0    116   2    2   348  2.8  ky_tu_xanh_so_2
+0    116   2    2   348  2.8  ky_tu_xanh_so_3
+0    116   2    2   348  2.8  ky_tu_xanh_so_4
+0    114   2    2   348  2.8  ky_tu_do_so_1
+0    116   2    2   348  2.8  ky_tu_do_so_2
+0    116   2    2   348  2.8  ky_tu_do_so_3
+0    116   2    2   348  2.8  ky_tu_do_so_4
+0     28   0    1    82  1.4  sapxep_vitri_48byte_cot_xanh
+0     28   0    1    82  1.4  sapxep_vitri_48byte_cot_do
+0     34   1    3   105  3.4  xoa_dl_48_cot
+0     70   1    4   116  3.4  copy_48_cot_hienthi
+0     80   1    4   127  3.5  xuat_1bit_cua_48_cot_hienthi
+0    122   2    4   383  4.5  hien_thi_ma_tran_quet_hang
+0    206   3    0   167  1.8  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               28
+    Statements              1351
+    Comments                1517
+    Volume (V)              15880
+    Difficulty (D)          92.2
+    Effort to implement (E) 1464338
+    Time to implement (T)   22 hours, 36 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   17
+    Maintainability (MI)    29
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  2994  29770  
+
+
+

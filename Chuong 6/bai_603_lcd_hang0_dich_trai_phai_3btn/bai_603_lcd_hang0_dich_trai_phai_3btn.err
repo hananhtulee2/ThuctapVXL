@@ -1,0 +1,4 @@
+>>> Warning 202 "bai_603_lcd_hang0_dich_trai_phai_3btn.c" Line 2(19,21): Variable never used:   dl
+      Memory usage:   ROM=5%      RAM=8% - 9%
+      0 Errors,  1 Warnings.
+Build Successful.
