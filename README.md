@@ -9,6 +9,6 @@ Repository is intended for students studying at UTE university.
 * Chapter 5: 8-digit 7-segment LED scanning.8-digit 7-segment LED scanning, Counter/Timer, Realtime.
 * Chapter 6: LCD 20x4 and GLCD 128x64.
 * Chapter 7: Analog to Digital (ADC) and sensor.
-* Chapter 8: Engine DC and Encoder, PWM
+* Chapter 8: Engine DC and Encoder, PWM.
 * Chapter 9: LED matrix.
 ## END 
